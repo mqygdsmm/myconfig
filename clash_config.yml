@@ -1,0 +1,3787 @@
+#!MANAGED-CONFIG https://sgi.anycast.gay/link/3RfOQn8dyZeqZZxF?clash=1
+
+#---------------------------------------------------#
+## 上次更新于：2021-04-21 11:57:11
+#---------------------------------------------------#
+
+port: 7890
+socks-port: 7891
+redir-port: 7892
+allow-lan: false
+mode: Rule
+log-level: silent
+external-controller: '0.0.0.0:9090'
+secret: ''
+proxies:
+  -
+    name: '1 加入用户群: https://t.me/joinchat/Fhvyaxkq0Bg4YzBl'
+    type: ss
+    server: 127.0.0.1
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '1 加入用户群: https://t.me/joinchat/Fhvyaxkq0Bg4YzBl - 1350 单端口'
+    type: ss
+    server: 127.0.0.1
+    port: 1350
+    cipher: aes-128-cfb
+    password: CNIX
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: a2190252293.microsoft.com
+  -
+    name: '1 备用官网 http://sgicc.airport-gov-cn.com:59999'
+    type: ss
+    server: 127.0.0.1
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '1认准官网: https://ユーザーパネル.ぜんにっぽんくうゆ.com'
+    type: ss
+    server: 127.0.0.1
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '1认准官网: https://ユーザーパネル.ぜんにっぽんくうゆ.com - 1350 单端口'
+    type: ss
+    server: 127.0.0.1
+    port: 1350
+    cipher: aes-128-cfb
+    password: CNIX
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: a2190252293.microsoft.com
+  -
+    name: 'IPV6 俄罗斯 E01'
+    type: ss
+    server: '2a00:b700:2::9:2a7'
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: 'IPV6 印度 E01'
+    type: ss
+    server: '2406:da1a:5fd:5b00:f176:15b0:538:e17d'
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: 'IPV6 日本 E01'
+    type: ss
+    server: '2401:2500:204:1102:153:127:9:202'
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E01'
+    type: ss
+    server: ru01.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E02'
+    type: ss
+    server: ru02.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E03'
+    type: ss
+    server: ru03.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E04'
+    type: ss
+    server: ru04.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E05'
+    type: ss
+    server: ru05.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E06'
+    type: ss
+    server: ru06.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E07'
+    type: ss
+    server: ru07.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E08'
+    type: ss
+    server: ru08.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E09'
+    type: ss
+    server: ru09.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E10'
+    type: ss
+    server: ru10.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-印度 班加罗尔 एयरटेल IPLC E01'
+    type: ss
+    server: in01.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-印度 班加罗尔 एयरटेल IPLC E02'
+    type: ss
+    server: in02.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-印度 班加罗尔 एयरटेल IPLC E03'
+    type: ss
+    server: in03.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-印度 班加罗尔 एयरटेल IPLC E04'
+    type: ss
+    server: in04.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-印度 班加罗尔 एयरटेल IPLC E05'
+    type: ss
+    server: in05.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-印度 班加罗尔 एयरटेल IPLC E06'
+    type: ss
+    server: in06.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-印度 班加罗尔 एयरटेल IPLC E07'
+    type: ss
+    server: in07.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-印度 班加罗尔 एयरटेल IPLC E08'
+    type: ss
+    server: in08.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-台湾 IEPL HiNet固接 E01 Netflix 动画疯'
+    type: ss
+    server: tw01.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-台湾 IEPL HiNet固接 E02 Netflix 动画疯'
+    type: ss
+    server: tw02.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-台湾 IEPL HiNet固接 E03 Netflix 动画疯'
+    type: ss
+    server: tw03.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-台湾 IEPL HiNet固接 E04 Netflix 动画疯'
+    type: ss
+    server: tw04.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-台湾 IEPL HiNet固接 E05 Netflix 动画疯'
+    type: ss
+    server: tw05.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-台湾 IEPL HiNet固接 E06 Netflix 动画疯'
+    type: ss
+    server: tw06.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-台湾 IEPL HiNet固接 E07 Netflix 动画疯'
+    type: ss
+    server: tw07.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-台湾 IEPL HiNet固接 E08 Netflix 动画疯'
+    type: ss
+    server: tw08.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-台湾 IEPL HiNet固接 E09 Netflix 动画疯'
+    type: ss
+    server: tw09.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-台湾 IEPL HiNet固接 E10 Netflix 动画疯'
+    type: ss
+    server: tw10.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-台湾 IPLC HiNet固接 E01 Netflix 动画疯'
+    type: ss
+    server: tw11.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-台湾 IPLC HiNet固接 E02 Netflix 动画疯'
+    type: ss
+    server: tw12.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-台湾 IPLC HiNet固接 E03 Netflix 动画疯'
+    type: ss
+    server: tw13.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-台湾 IPLC HiNet固接 E04 Netflix 动画疯'
+    type: ss
+    server: tw14.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-台湾 IPLC HiNet固接 E05 Netflix 动画疯'
+    type: ss
+    server: tw15.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-台湾 IPLC HiNet固接 E06 Netflix 动画疯'
+    type: ss
+    server: tw16.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-台湾 IPLC HiNet固接 E07 Netflix 动画疯'
+    type: ss
+    server: tw17.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-台湾 IPLC HiNet固接 E08 Netflix 动画疯'
+    type: ss
+    server: tw18.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-台湾 IPLC HiNet固接 E09 Netflix 动画疯'
+    type: ss
+    server: tw19.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-台湾 IPLC HiNet固接 E10 Netflix 动画疯'
+    type: ss
+    server: tw20.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-台湾宜兰 IPLC E01'
+    type: ss
+    server: tw21.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-台湾宜兰 IPLC E02'
+    type: ss
+    server: tw22.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-台湾宜兰 IPLC E03'
+    type: ss
+    server: tw23.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-台湾宜兰 IPLC E04'
+    type: ss
+    server: tw24.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-台湾宜兰 IPLC E05'
+    type: ss
+    server: tw25.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-台湾宜兰 IPLC E06'
+    type: ss
+    server: tw26.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-台湾宜兰 IPLC E07'
+    type: ss
+    server: tw27.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-台湾宜兰 IPLC E08'
+    type: ss
+    server: tw28.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-台湾宜兰 IPLC E09'
+    type: ss
+    server: tw29.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-台湾宜兰 IPLC E10'
+    type: ss
+    server: tw30.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-日本 沪日IEPL传输 Equinix-TY8 E01 Netflix'
+    type: ss
+    server: jp01.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-日本 沪日IEPL传输 Equinix-TY8 E02 Netflix'
+    type: ss
+    server: jp02.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-日本 沪日IEPL传输 Equinix-TY8 E03 Netflix'
+    type: ss
+    server: jp03.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-日本 沪日IEPL传输 Equinix-TY8 E04 Netflix'
+    type: ss
+    server: jp04.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-日本 沪日IEPL传输 Equinix-TY8 E05 Netflix'
+    type: ss
+    server: jp05.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-日本 沪日IEPL传输 Equinix-TY8 E06 Netflix'
+    type: ss
+    server: jp06.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-日本 沪日IEPL传输 Equinix-TY8 E07 Netflix'
+    type: ss
+    server: jp07.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-日本 沪日IEPL传输 Equinix-TY8 E08 Netflix'
+    type: ss
+    server: jp08.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-日本 沪日IEPL传输 Equinix-TY8 E09 Netflix'
+    type: ss
+    server: jp09.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-日本 沪日IEPL传输 Equinix-TY8 E10 Netflix'
+    type: ss
+    server: jp10.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-日本 沪日IEPL传输 Equinix-TY8 E11 Netflix'
+    type: ss
+    server: jp11.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-日本 沪日IEPL传输 Equinix-TY8 E12 Netflix'
+    type: ss
+    server: jp12.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-日本 沪日IPLC传输 Equinix-TY8 E01 Netflix'
+    type: ss
+    server: jp13.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-日本 沪日IPLC传输 Equinix-TY8 E02 Netflix'
+    type: ss
+    server: jp14.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-日本 沪日IPLC传输 Equinix-TY8 E03 Netflix'
+    type: ss
+    server: jp15.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-日本 沪日IPLC传输 Equinix-TY8 E04 Netflix'
+    type: ss
+    server: jp16.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-日本 沪日IPLC传输 Equinix-TY8 E05 Netflix'
+    type: ss
+    server: jp17.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-日本 沪日IPLC传输 Equinix-TY8 E06 Netflix'
+    type: ss
+    server: jp18.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-英国伦敦电信 IEPL E01'
+    type: ss
+    server: uk01.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-英国伦敦电信 IEPL E02'
+    type: ss
+    server: uk02.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-英国伦敦电信 IEPL E03'
+    type: ss
+    server: uk03.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-英国伦敦电信 IEPL E04'
+    type: ss
+    server: uk04.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-英国伦敦电信 IEPL E05'
+    type: ss
+    server: uk05.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-英国伦敦电信 IEPL E06'
+    type: ss
+    server: uk06.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-韩国 IEPL E 01'
+    type: ss
+    server: kr01.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-韩国 IEPL E 02'
+    type: ss
+    server: kr02.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-韩国 IEPL E 03'
+    type: ss
+    server: kr03.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-韩国 IEPL E 04'
+    type: ss
+    server: kr04.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-韩国 IEPL E 05'
+    type: ss
+    server: kr05.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-韩国 IEPL E 06'
+    type: ss
+    server: kr06.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-韩国 IEPL E 07'
+    type: ss
+    server: kr07.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-韩国 IEPL E 08'
+    type: ss
+    server: kr08.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-韩国 IEPL E 09'
+    type: ss
+    server: kr09.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-韩国 IEPL E 10'
+    type: ss
+    server: kr10.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-香港 IEPL Equinix HK2 E 01'
+    type: ss
+    server: hk21.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-香港 IEPL Equinix HK2 E 02'
+    type: ss
+    server: hk22.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-香港 IEPL Equinix HK2 E 03'
+    type: ss
+    server: hk23.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-香港 IEPL Equinix HK2 E 04'
+    type: ss
+    server: hk24.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-香港 IEPL Equinix HK2 E 05'
+    type: ss
+    server: hk25.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-香港 IEPL Equinix HK2 E 06'
+    type: ss
+    server: hk26.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-香港 IEPL Equinix HK2 E 07'
+    type: ss
+    server: hk27.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-香港 IEPL Equinix HK2 E 08'
+    type: ss
+    server: hk28.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-香港 IEPL Equinix HK2 E 09'
+    type: ss
+    server: hk29.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-香港 IEPL Equinix HK2 E 10'
+    type: ss
+    server: hk30.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-香港 IEPL Equinix HK2 E 11'
+    type: ss
+    server: hk31.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-香港 IEPL Equinix HK2 E 12'
+    type: ss
+    server: hk32.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-香港 IEPL Equinix HK2 E 13'
+    type: ss
+    server: hk33.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-香港 IEPL Equinix HK2 E 14'
+    type: ss
+    server: hk34.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-香港 IEPL Equinix HK2 E 15'
+    type: ss
+    server: hk35.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-香港 IEPL Equinix HK2 E 16'
+    type: ss
+    server: hk36.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-香港 IEPL Equinix HK2 E 17'
+    type: ss
+    server: hk37.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-香港 IEPL Equinix HK2 E 18'
+    type: ss
+    server: hk38.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-香港 IEPL Equinix HK2 E 19'
+    type: ss
+    server: hk39.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中国-香港 IEPL Equinix HK2 E 20'
+    type: ss
+    server: hk40.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中港专线 IPLC E01 1000Mbps'
+    type: ss
+    server: hk01.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中港专线 IPLC E02 1000Mbps'
+    type: ss
+    server: hk02.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中港专线 IPLC E03 1000Mbps'
+    type: ss
+    server: hk03.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中港专线 IPLC E04 1000Mbps'
+    type: ss
+    server: hk04.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中港专线 IPLC E05 1000Mbps'
+    type: ss
+    server: hk05.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中港专线 IPLC E06 1000Mbps'
+    type: ss
+    server: hk06.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中港专线 IPLC E07 1000Mbps'
+    type: ss
+    server: hk07.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中港专线 IPLC E08 1000Mbps'
+    type: ss
+    server: hk08.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中港专线 IPLC E09 1000Mbps'
+    type: ss
+    server: hk09.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中港专线 IPLC E10 1000Mbps'
+    type: ss
+    server: hk10.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中港专线 IPLC E11 1000Mbps'
+    type: ss
+    server: hk11.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中港专线 IPLC E12 1000Mbps'
+    type: ss
+    server: hk12.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中港专线 IPLC E13 1000Mbps'
+    type: ss
+    server: hk13.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中港专线 IPLC E14 1000Mbps'
+    type: ss
+    server: hk14.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中港专线 IPLC E15 1000Mbps'
+    type: ss
+    server: hk15.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中港专线 IPLC E161000Mbps'
+    type: ss
+    server: hk16.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中港专线 IPLC E17 1000Mbps'
+    type: ss
+    server: hk17.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中港专线 IPLC E18 1000Mbps'
+    type: ss
+    server: hk18.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中港专线 IPLC E19 1000Mbps'
+    type: ss
+    server: hk19.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '中港专线 IPLC E20 1000Mbps'
+    type: ss
+    server: hk20.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '单端口测试 - 1350 单端口'
+    type: ss
+    server: 116.129.252.103
+    port: 1350
+    cipher: aes-128-cfb
+    password: CNIX
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: a2190252293.microsoft.com
+  -
+    name: 因V2ray重大漏洞问题，暂时下架全部V2节点。请使用ssr/ss连接方式进行使用。
+    type: vmess
+    server: v2-jp01.clashcloud.org
+    port: 681
+    uuid: 546a808f-ae56-3baf-98f5-1ef61ffc05b6
+    alterId: 1
+    cipher: auto
+    udp: true
+  -
+    name: '新加坡 Legacy Magic IEPL 中继 E01 Netflix'
+    type: ss
+    server: sgp01.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '新加坡 Legacy Magic IEPL 中继 E02 Netflix'
+    type: ss
+    server: sgp02.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '新加坡 Legacy Magic IEPL 中继 E03 Netflix'
+    type: ss
+    server: sgp03.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '新加坡 Legacy Magic IEPL 中继 E04 Netflix'
+    type: ss
+    server: sgp04.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '新加坡 Legacy Magic IEPL 中继 E05 Netflix'
+    type: ss
+    server: sgp05.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '新加坡 Magic IEPL 中继 E01 Netflix'
+    type: ss
+    server: sgp06.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '新加坡 Magic IEPL 中继 E02 Netflix'
+    type: ss
+    server: sgp07.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '新加坡 Magic IEPL 中继 E03 Netflix'
+    type: ss
+    server: sgp08.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '新加坡 Magic IEPL 中继 E04 Netflix'
+    type: ss
+    server: sgp09.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '新加坡 Magic IEPL 中继 E05 Netflix'
+    type: ss
+    server: sgp10.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '日本 ソフトバンク E01 500Mbps 1倍 Netflix'
+    type: ss
+    server: jp31.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '日本 ソフトバンク E02 500Mbps 1倍 Netflix'
+    type: ss
+    server: jp32.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '日本 ソフトバンク E03 500Mbps 1倍 Netflix'
+    type: ss
+    server: jp33.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '日本 ソフトバンク E04 500Mbps 1倍 Netflix'
+    type: ss
+    server: jp34.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '日本 ソフトバンク E05 500Mbps 1倍 Netflix'
+    type: ss
+    server: jp35.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '日本 ソフトバンク E06 500Mbps 1倍 Netflix'
+    type: ss
+    server: jp36.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '日本 ソフトバンク E07 500Mbps 1倍 Netflix'
+    type: ss
+    server: jp37.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '日本 ソフトバンク E08 500Mbps 1倍 Netflix'
+    type: ss
+    server: jp38.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '日本 ソフトバンク E09 500Mbps 1倍 Netflix'
+    type: ss
+    server: jp39.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '日本 ソフトバンク E10 500Mbps 1倍 Netflix'
+    type: ss
+    server: jp40.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '日本 ソフトバンク E11 500Mbps 1倍 Netflix'
+    type: ss
+    server: jp41.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '日本 ソフトバンク E12 500Mbps 1倍 Netflix'
+    type: ss
+    server: jp42.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '日本 ソフトバンク E13 500Mbps 1倍 Netflix'
+    type: ss
+    server: jp43.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '日本 ソフトバンク E14 500Mbps 1倍 Netflix'
+    type: ss
+    server: jp44.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '日本 ソフトバンク E15 500Mbps 1倍 Netflix'
+    type: ss
+    server: jp45.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '日本 ソフトバンク E16 500Mbps 1倍 Netflix'
+    type: ss
+    server: jp46.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '日本 ソフトバンク E17 500Mbps 1倍 Netflix'
+    type: ss
+    server: jp47.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '日本 ソフトバンク E18 500Mbps 1倍 Netflix'
+    type: ss
+    server: jp48.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '日本 まつやまし auひかり ホーム1ギガ E 01'
+    type: ss
+    server: jp19.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '日本 まつやまし auひかり ホーム1ギガ E 02'
+    type: ss
+    server: jp20.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '日本 まつやまし auひかり ホーム1ギガ E 03'
+    type: ss
+    server: jp21.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '日本 まつやまし auひかり ホーム1ギガ E 04'
+    type: ss
+    server: jp22.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '日本 まつやまし auひかり ホーム1ギガ E 05'
+    type: ss
+    server: jp23.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '日本 まつやまし auひかり ホーム1ギガ E 06'
+    type: ss
+    server: jp24.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '日本 まつやまし auひかり ホーム1ギガ E 07'
+    type: ss
+    server: jp25.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '日本 まつやまし auひかり ホーム1ギガ E 08'
+    type: ss
+    server: jp26.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '日本 まつやまし auひかり ホーム1ギガ E 09'
+    type: ss
+    server: jp27.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '日本 まつやまし auひかり ホーム1ギガ E 10'
+    type: ss
+    server: jp28.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '日本 まつやまし auひかり ホーム1ギガ E 11'
+    type: ss
+    server: jp29.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '日本 まつやまし auひかり ホーム1ギガ E 12'
+    type: ss
+    server: jp30.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '本站无Ins推广渠道 Ins推广渠道均为二手倒卖'
+    type: ss
+    server: 127.0.0.1
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '本站无QQ购买渠道 QQ卖家购买均为二手倒卖'
+    type: ss
+    server: 127.0.0.1
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '本站无微信购买渠道 微信购买均为二手倒卖'
+    type: ss
+    server: 127.0.0.1
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '本站无微店购买渠道 微店购买均为二手倒卖'
+    type: ss
+    server: 127.0.0.1
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '校园 41 速度较慢非校园版用户不推荐使用'
+    type: ss
+    server: 41.anycast.gay
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '校园 42 速度较慢非校园版用户不推荐使用'
+    type: ss
+    server: 42.anycast.gay
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '校园 43 速度较慢非校园版用户不推荐使用'
+    type: ss
+    server: 43.anycast.gay
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '校园 44 速度较慢非校园版用户不推荐使用'
+    type: ss
+    server: 44.anycast.gay
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '校园 45 速度较慢非校园版用户不推荐使用'
+    type: ss
+    server: 45.anycast.gay
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '校园 46 速度较慢非校园版用户不推荐使用'
+    type: ss
+    server: 46.anycast.gay
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '校园 47 速度较慢非校园版用户不推荐使用'
+    type: ss
+    server: 47.anycast.gay
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '校园 48 速度较慢非校园版用户不推荐使用'
+    type: ss
+    server: 48.anycast.gay
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '校园 49 速度较慢非校园版用户不推荐使用'
+    type: ss
+    server: 49.anycast.gay
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '校园 50 速度较慢非校园版用户不推荐使用'
+    type: ss
+    server: 50.anycast.gay
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '沪港 IEPL专线 港区TVB/HBO/Netflix解锁 E01'
+    type: ss
+    server: hg01.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '沪港 IEPL专线 港区TVB/HBO/Netflix解锁 E02'
+    type: ss
+    server: hg02.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '沪港 IEPL专线 港区TVB/HBO/Netflix解锁 E03'
+    type: ss
+    server: hg03.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '沪港 IEPL专线 港区TVB/HBO/Netflix解锁 E04'
+    type: ss
+    server: hg04.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '沪港 IEPL专线 港区TVB/HBO/Netflix解锁 E05'
+    type: ss
+    server: hg05.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '美国 Magic Anycast 中继 E01'
+    type: ss
+    server: us26.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '美国 Magic Anycast 中继 E02'
+    type: ss
+    server: us27.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '美国 Magic Anycast 中继 E03'
+    type: ss
+    server: us28.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '美国 Magic Anycast 中继 E04'
+    type: ss
+    server: us29.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '美国 Magic IEPL 中继 E01'
+    type: ss
+    server: us11.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '美国 Magic IEPL 中继 E02'
+    type: ss
+    server: us12.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '美国 Magic IEPL 中继 E03'
+    type: ss
+    server: us13.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '美国 Magic IEPL 中继 E04'
+    type: ss
+    server: us14.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '美国 Magic IEPL 中继 E05'
+    type: ss
+    server: us15.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '美国实验性 IEPL 中继 E01'
+    type: ss
+    server: us06.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '美国实验性 IEPL 中继 E02'
+    type: ss
+    server: us07.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '美国实验性 IEPL 中继 E03'
+    type: ss
+    server: us08.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '美国实验性 IEPL 中继 E04'
+    type: ss
+    server: us09.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '美国实验性 IEPL 中继 E05'
+    type: ss
+    server: us10.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '美国广域网加速虚拟引擎 IEPL E01'
+    type: ss
+    server: us21.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '美国广域网加速虚拟引擎 IEPL E02'
+    type: ss
+    server: us22.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '美国广域网加速虚拟引擎 IEPL E03'
+    type: ss
+    server: us23.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '美国广域网加速虚拟引擎 IEPL E04'
+    type: ss
+    server: us24.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '美国广域网加速虚拟引擎 IEPL E05'
+    type: ss
+    server: us25.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '美国标准 IEPL 中继 E01'
+    type: ss
+    server: us16.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '美国标准 IEPL 中继 E02'
+    type: ss
+    server: us17.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '美国标准 IEPL 中继 E03'
+    type: ss
+    server: us18.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '美国标准 IEPL 中继 E04'
+    type: ss
+    server: us19.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '美国标准 IEPL 中继 E05'
+    type: ss
+    server: us20.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '美国高级 IEPL 中继 E01'
+    type: ss
+    server: us01.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '美国高级 IEPL 中继 E02'
+    type: ss
+    server: us02.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '美国高级 IEPL 中继 E03'
+    type: ss
+    server: us03.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '美国高级 IEPL 中继 E04'
+    type: ss
+    server: us04.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '美国高级 IEPL 中继 E05'
+    type: ss
+    server: us05.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '韩国 전라북도 전주시 商宽 E 01'
+    type: ss
+    server: kr11.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '韩国 전라북도 전주시 商宽 E 02'
+    type: ss
+    server: kr12.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '韩国 전라북도 전주시 商宽 E 03'
+    type: ss
+    server: kr13.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '韩国 전라북도 전주시 商宽 E 04'
+    type: ss
+    server: kr14.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '韩国 전라북도 전주시 商宽 E 05'
+    type: ss
+    server: kr15.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '韩国 전라북도 전주시 商宽 E 06'
+    type: ss
+    server: kr16.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '韩国 전라북도 전주시 商宽 E 07'
+    type: ss
+    server: kr17.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '韩国 전라북도 전주시 商宽 E 08'
+    type: ss
+    server: kr18.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '韩国 전라북도 전주시 商宽 E 09'
+    type: ss
+    server: kr19.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '韩国 전라북도 전주시 商宽 E 10'
+    type: ss
+    server: kr20.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '香港 油尖旺御金·国峯 網上行寬頻 E01'
+    type: ss
+    server: hkt01.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '香港 油尖旺御金·国峯 網上行寬頻 E02'
+    type: ss
+    server: hkt02.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '香港 油尖旺御金·国峯 網上行寬頻 E03'
+    type: ss
+    server: hkt03.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '香港 油尖旺御金·国峯 網上行寬頻 E04'
+    type: ss
+    server: hkt04.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '香港 油尖旺御金·国峯 網上行寬頻 E05'
+    type: ss
+    server: hkt05.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '香港 油尖旺御金·国峯 網上行寬頻 E06'
+    type: ss
+    server: hkt06.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '香港 油尖旺御金·国峯 網上行寬頻 E07'
+    type: ss
+    server: hkt07.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '香港 油尖旺御金·国峯 網上行寬頻 E08'
+    type: ss
+    server: hkt08.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '香港 油尖旺御金·国峯 網上行寬頻 E09'
+    type: ss
+    server: hkt09.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '香港 油尖旺御金·国峯 網上行寬頻 E10'
+    type: ss
+    server: hkt10.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '香港 油尖旺御金·国峯 香港寬頻 E01'
+    type: ss
+    server: hkbn01.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '香港 油尖旺御金·国峯 香港寬頻 E02'
+    type: ss
+    server: hkbn02.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '香港 油尖旺御金·国峯 香港寬頻 E03'
+    type: ss
+    server: hkbn03.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '香港 油尖旺御金·国峯 香港寬頻 E04'
+    type: ss
+    server: hkbn04.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '香港 油尖旺御金·国峯 香港寬頻 E05'
+    type: ss
+    server: hkbn05.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '香港 油尖旺御金·国峯 香港寬頻 E06'
+    type: ss
+    server: hkbn06.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '香港 油尖旺御金·国峯 香港寬頻 E07'
+    type: ss
+    server: hkbn07.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '香港 油尖旺御金·国峯 香港寬頻 E08'
+    type: ss
+    server: hkbn08.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '香港 油尖旺御金·国峯 香港寬頻 E09'
+    type: ss
+    server: hkbn09.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+  -
+    name: '香港 油尖旺御金·国峯 香港寬頻 E10'
+    type: ss
+    server: hkbn10.as9929.com
+    port: 12181
+    cipher: rc4-md5
+    password: Mo8fOO
+    udp: true
+proxy-groups:
+  -
+    name: 🔰国外流量
+    type: url-test
+    proxies:
+      - '中国-香港 IEPL Equinix HK2 E 01'
+      - '中国-香港 IEPL Equinix HK2 E 02'
+      - '中国-香港 IEPL Equinix HK2 E 03'
+      - '中国-香港 IEPL Equinix HK2 E 04'
+      - '中国-香港 IEPL Equinix HK2 E 05'
+      - '中国-香港 IEPL Equinix HK2 E 06'
+      - '中国-香港 IEPL Equinix HK2 E 07'
+      - '中国-香港 IEPL Equinix HK2 E 08'
+      - '中国-香港 IEPL Equinix HK2 E 09'
+      - '中国-香港 IEPL Equinix HK2 E 10'
+      - '中国-香港 IEPL Equinix HK2 E 11'
+      - '中国-香港 IEPL Equinix HK2 E 12'
+      - '中国-香港 IEPL Equinix HK2 E 13'
+      - '中国-香港 IEPL Equinix HK2 E 14'
+      - '中国-香港 IEPL Equinix HK2 E 15'
+      - '中国-香港 IEPL Equinix HK2 E 16'
+      - '中国-香港 IEPL Equinix HK2 E 17'
+      - '中国-香港 IEPL Equinix HK2 E 18'
+      - '中国-香港 IEPL Equinix HK2 E 19'
+      - '中国-香港 IEPL Equinix HK2 E 20'
+      - '中港专线 IPLC E01 1000Mbps'
+      - '中港专线 IPLC E02 1000Mbps'
+      - '中港专线 IPLC E03 1000Mbps'
+      - '中港专线 IPLC E04 1000Mbps'
+      - '中港专线 IPLC E05 1000Mbps'
+      - '中港专线 IPLC E06 1000Mbps'
+      - '中港专线 IPLC E07 1000Mbps'
+      - '中港专线 IPLC E08 1000Mbps'
+      - '中港专线 IPLC E09 1000Mbps'
+      - '中港专线 IPLC E10 1000Mbps'
+      - '中港专线 IPLC E11 1000Mbps'
+      - '中港专线 IPLC E12 1000Mbps'
+      - '中港专线 IPLC E13 1000Mbps'
+      - '中港专线 IPLC E14 1000Mbps'
+      - '中港专线 IPLC E15 1000Mbps'
+      - '中港专线 IPLC E161000Mbps'
+      - '中港专线 IPLC E17 1000Mbps'
+      - '中港专线 IPLC E18 1000Mbps'
+      - '中港专线 IPLC E19 1000Mbps'
+      - '中港专线 IPLC E20 1000Mbps'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E01'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E02'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E03'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E04'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E05'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E06'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E07'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E08'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E09'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E10'
+      - '香港 油尖旺御金·国峯 香港寬頻 E01'
+      - '香港 油尖旺御金·国峯 香港寬頻 E02'
+      - '香港 油尖旺御金·国峯 香港寬頻 E03'
+      - '香港 油尖旺御金·国峯 香港寬頻 E04'
+      - '香港 油尖旺御金·国峯 香港寬頻 E05'
+      - '香港 油尖旺御金·国峯 香港寬頻 E06'
+      - '香港 油尖旺御金·国峯 香港寬頻 E07'
+      - '香港 油尖旺御金·国峯 香港寬頻 E08'
+      - '香港 油尖旺御金·国峯 香港寬頻 E09'
+      - '香港 油尖旺御金·国峯 香港寬頻 E10'
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 3600
+  -
+    name: ⚓️其他流量
+    type: select
+    proxies:
+      - 🔰国外流量
+      - 🚀直接连接
+      - '1 加入用户群: https://t.me/joinchat/Fhvyaxkq0Bg4YzBl'
+      - '1 加入用户群: https://t.me/joinchat/Fhvyaxkq0Bg4YzBl - 1350 单端口'
+      - '1 备用官网 http://sgicc.airport-gov-cn.com:59999'
+      - '1认准官网: https://ユーザーパネル.ぜんにっぽんくうゆ.com'
+      - '1认准官网: https://ユーザーパネル.ぜんにっぽんくうゆ.com - 1350 单端口'
+      - 'IPV6 俄罗斯 E01'
+      - 'IPV6 印度 E01'
+      - 'IPV6 日本 E01'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E01'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E02'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E03'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E04'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E05'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E06'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E07'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E08'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E09'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E10'
+      - '中国-印度 班加罗尔 एयरटेल IPLC E01'
+      - '中国-印度 班加罗尔 एयरटेल IPLC E02'
+      - '中国-印度 班加罗尔 एयरटेल IPLC E03'
+      - '中国-印度 班加罗尔 एयरटेल IPLC E04'
+      - '中国-印度 班加罗尔 एयरटेल IPLC E05'
+      - '中国-印度 班加罗尔 एयरटेल IPLC E06'
+      - '中国-印度 班加罗尔 एयरटेल IPLC E07'
+      - '中国-印度 班加罗尔 एयरटेल IPLC E08'
+      - '中国-台湾 IEPL HiNet固接 E01 Netflix 动画疯'
+      - '中国-台湾 IEPL HiNet固接 E02 Netflix 动画疯'
+      - '中国-台湾 IEPL HiNet固接 E03 Netflix 动画疯'
+      - '中国-台湾 IEPL HiNet固接 E04 Netflix 动画疯'
+      - '中国-台湾 IEPL HiNet固接 E05 Netflix 动画疯'
+      - '中国-台湾 IEPL HiNet固接 E06 Netflix 动画疯'
+      - '中国-台湾 IEPL HiNet固接 E07 Netflix 动画疯'
+      - '中国-台湾 IEPL HiNet固接 E08 Netflix 动画疯'
+      - '中国-台湾 IEPL HiNet固接 E09 Netflix 动画疯'
+      - '中国-台湾 IEPL HiNet固接 E10 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E01 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E02 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E03 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E04 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E05 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E06 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E07 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E08 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E09 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E10 Netflix 动画疯'
+      - '中国-台湾宜兰 IPLC E01'
+      - '中国-台湾宜兰 IPLC E02'
+      - '中国-台湾宜兰 IPLC E03'
+      - '中国-台湾宜兰 IPLC E04'
+      - '中国-台湾宜兰 IPLC E05'
+      - '中国-台湾宜兰 IPLC E06'
+      - '中国-台湾宜兰 IPLC E07'
+      - '中国-台湾宜兰 IPLC E08'
+      - '中国-台湾宜兰 IPLC E09'
+      - '中国-台湾宜兰 IPLC E10'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E01 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E02 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E03 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E04 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E05 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E06 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E07 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E08 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E09 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E10 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E11 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E12 Netflix'
+      - '中国-日本 沪日IPLC传输 Equinix-TY8 E01 Netflix'
+      - '中国-日本 沪日IPLC传输 Equinix-TY8 E02 Netflix'
+      - '中国-日本 沪日IPLC传输 Equinix-TY8 E03 Netflix'
+      - '中国-日本 沪日IPLC传输 Equinix-TY8 E04 Netflix'
+      - '中国-日本 沪日IPLC传输 Equinix-TY8 E05 Netflix'
+      - '中国-日本 沪日IPLC传输 Equinix-TY8 E06 Netflix'
+      - '中国-英国伦敦电信 IEPL E01'
+      - '中国-英国伦敦电信 IEPL E02'
+      - '中国-英国伦敦电信 IEPL E03'
+      - '中国-英国伦敦电信 IEPL E04'
+      - '中国-英国伦敦电信 IEPL E05'
+      - '中国-英国伦敦电信 IEPL E06'
+      - '中国-韩国 IEPL E 01'
+      - '中国-韩国 IEPL E 02'
+      - '中国-韩国 IEPL E 03'
+      - '中国-韩国 IEPL E 04'
+      - '中国-韩国 IEPL E 05'
+      - '中国-韩国 IEPL E 06'
+      - '中国-韩国 IEPL E 07'
+      - '中国-韩国 IEPL E 08'
+      - '中国-韩国 IEPL E 09'
+      - '中国-韩国 IEPL E 10'
+      - '中国-香港 IEPL Equinix HK2 E 01'
+      - '中国-香港 IEPL Equinix HK2 E 02'
+      - '中国-香港 IEPL Equinix HK2 E 03'
+      - '中国-香港 IEPL Equinix HK2 E 04'
+      - '中国-香港 IEPL Equinix HK2 E 05'
+      - '中国-香港 IEPL Equinix HK2 E 06'
+      - '中国-香港 IEPL Equinix HK2 E 07'
+      - '中国-香港 IEPL Equinix HK2 E 08'
+      - '中国-香港 IEPL Equinix HK2 E 09'
+      - '中国-香港 IEPL Equinix HK2 E 10'
+      - '中国-香港 IEPL Equinix HK2 E 11'
+      - '中国-香港 IEPL Equinix HK2 E 12'
+      - '中国-香港 IEPL Equinix HK2 E 13'
+      - '中国-香港 IEPL Equinix HK2 E 14'
+      - '中国-香港 IEPL Equinix HK2 E 15'
+      - '中国-香港 IEPL Equinix HK2 E 16'
+      - '中国-香港 IEPL Equinix HK2 E 17'
+      - '中国-香港 IEPL Equinix HK2 E 18'
+      - '中国-香港 IEPL Equinix HK2 E 19'
+      - '中国-香港 IEPL Equinix HK2 E 20'
+      - '中港专线 IPLC E01 1000Mbps'
+      - '中港专线 IPLC E02 1000Mbps'
+      - '中港专线 IPLC E03 1000Mbps'
+      - '中港专线 IPLC E04 1000Mbps'
+      - '中港专线 IPLC E05 1000Mbps'
+      - '中港专线 IPLC E06 1000Mbps'
+      - '中港专线 IPLC E07 1000Mbps'
+      - '中港专线 IPLC E08 1000Mbps'
+      - '中港专线 IPLC E09 1000Mbps'
+      - '中港专线 IPLC E10 1000Mbps'
+      - '中港专线 IPLC E11 1000Mbps'
+      - '中港专线 IPLC E12 1000Mbps'
+      - '中港专线 IPLC E13 1000Mbps'
+      - '中港专线 IPLC E14 1000Mbps'
+      - '中港专线 IPLC E15 1000Mbps'
+      - '中港专线 IPLC E161000Mbps'
+      - '中港专线 IPLC E17 1000Mbps'
+      - '中港专线 IPLC E18 1000Mbps'
+      - '中港专线 IPLC E19 1000Mbps'
+      - '中港专线 IPLC E20 1000Mbps'
+      - '单端口测试 - 1350 单端口'
+      - 因V2ray重大漏洞问题，暂时下架全部V2节点。请使用ssr/ss连接方式进行使用。
+      - '新加坡 Legacy Magic IEPL 中继 E01 Netflix'
+      - '新加坡 Legacy Magic IEPL 中继 E02 Netflix'
+      - '新加坡 Legacy Magic IEPL 中继 E03 Netflix'
+      - '新加坡 Legacy Magic IEPL 中继 E04 Netflix'
+      - '新加坡 Legacy Magic IEPL 中继 E05 Netflix'
+      - '新加坡 Magic IEPL 中继 E01 Netflix'
+      - '新加坡 Magic IEPL 中继 E02 Netflix'
+      - '新加坡 Magic IEPL 中继 E03 Netflix'
+      - '新加坡 Magic IEPL 中继 E04 Netflix'
+      - '新加坡 Magic IEPL 中继 E05 Netflix'
+      - '日本 ソフトバンク E01 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E02 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E03 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E04 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E05 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E06 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E07 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E08 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E09 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E10 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E11 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E12 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E13 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E14 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E15 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E16 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E17 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E18 500Mbps 1倍 Netflix'
+      - '日本 まつやまし auひかり ホーム1ギガ E 01'
+      - '日本 まつやまし auひかり ホーム1ギガ E 02'
+      - '日本 まつやまし auひかり ホーム1ギガ E 03'
+      - '日本 まつやまし auひかり ホーム1ギガ E 04'
+      - '日本 まつやまし auひかり ホーム1ギガ E 05'
+      - '日本 まつやまし auひかり ホーム1ギガ E 06'
+      - '日本 まつやまし auひかり ホーム1ギガ E 07'
+      - '日本 まつやまし auひかり ホーム1ギガ E 08'
+      - '日本 まつやまし auひかり ホーム1ギガ E 09'
+      - '日本 まつやまし auひかり ホーム1ギガ E 10'
+      - '日本 まつやまし auひかり ホーム1ギガ E 11'
+      - '日本 まつやまし auひかり ホーム1ギガ E 12'
+      - '本站无Ins推广渠道 Ins推广渠道均为二手倒卖'
+      - '本站无QQ购买渠道 QQ卖家购买均为二手倒卖'
+      - '本站无微信购买渠道 微信购买均为二手倒卖'
+      - '本站无微店购买渠道 微店购买均为二手倒卖'
+      - '校园 41 速度较慢非校园版用户不推荐使用'
+      - '校园 42 速度较慢非校园版用户不推荐使用'
+      - '校园 43 速度较慢非校园版用户不推荐使用'
+      - '校园 44 速度较慢非校园版用户不推荐使用'
+      - '校园 45 速度较慢非校园版用户不推荐使用'
+      - '校园 46 速度较慢非校园版用户不推荐使用'
+      - '校园 47 速度较慢非校园版用户不推荐使用'
+      - '校园 48 速度较慢非校园版用户不推荐使用'
+      - '校园 49 速度较慢非校园版用户不推荐使用'
+      - '校园 50 速度较慢非校园版用户不推荐使用'
+      - '沪港 IEPL专线 港区TVB/HBO/Netflix解锁 E01'
+      - '沪港 IEPL专线 港区TVB/HBO/Netflix解锁 E02'
+      - '沪港 IEPL专线 港区TVB/HBO/Netflix解锁 E03'
+      - '沪港 IEPL专线 港区TVB/HBO/Netflix解锁 E04'
+      - '沪港 IEPL专线 港区TVB/HBO/Netflix解锁 E05'
+      - '美国 Magic Anycast 中继 E01'
+      - '美国 Magic Anycast 中继 E02'
+      - '美国 Magic Anycast 中继 E03'
+      - '美国 Magic Anycast 中继 E04'
+      - '美国 Magic IEPL 中继 E01'
+      - '美国 Magic IEPL 中继 E02'
+      - '美国 Magic IEPL 中继 E03'
+      - '美国 Magic IEPL 中继 E04'
+      - '美国 Magic IEPL 中继 E05'
+      - '美国实验性 IEPL 中继 E01'
+      - '美国实验性 IEPL 中继 E02'
+      - '美国实验性 IEPL 中继 E03'
+      - '美国实验性 IEPL 中继 E04'
+      - '美国实验性 IEPL 中继 E05'
+      - '美国广域网加速虚拟引擎 IEPL E01'
+      - '美国广域网加速虚拟引擎 IEPL E02'
+      - '美国广域网加速虚拟引擎 IEPL E03'
+      - '美国广域网加速虚拟引擎 IEPL E04'
+      - '美国广域网加速虚拟引擎 IEPL E05'
+      - '美国标准 IEPL 中继 E01'
+      - '美国标准 IEPL 中继 E02'
+      - '美国标准 IEPL 中继 E03'
+      - '美国标准 IEPL 中继 E04'
+      - '美国标准 IEPL 中继 E05'
+      - '美国高级 IEPL 中继 E01'
+      - '美国高级 IEPL 中继 E02'
+      - '美国高级 IEPL 中继 E03'
+      - '美国高级 IEPL 中继 E04'
+      - '美国高级 IEPL 中继 E05'
+      - '韩国 전라북도 전주시 商宽 E 01'
+      - '韩国 전라북도 전주시 商宽 E 02'
+      - '韩国 전라북도 전주시 商宽 E 03'
+      - '韩国 전라북도 전주시 商宽 E 04'
+      - '韩国 전라북도 전주시 商宽 E 05'
+      - '韩国 전라북도 전주시 商宽 E 06'
+      - '韩国 전라북도 전주시 商宽 E 07'
+      - '韩国 전라북도 전주시 商宽 E 08'
+      - '韩国 전라북도 전주시 商宽 E 09'
+      - '韩国 전라북도 전주시 商宽 E 10'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E01'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E02'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E03'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E04'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E05'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E06'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E07'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E08'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E09'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E10'
+      - '香港 油尖旺御金·国峯 香港寬頻 E01'
+      - '香港 油尖旺御金·国峯 香港寬頻 E02'
+      - '香港 油尖旺御金·国峯 香港寬頻 E03'
+      - '香港 油尖旺御金·国峯 香港寬頻 E04'
+      - '香港 油尖旺御金·国峯 香港寬頻 E05'
+      - '香港 油尖旺御金·国峯 香港寬頻 E06'
+      - '香港 油尖旺御金·国峯 香港寬頻 E07'
+      - '香港 油尖旺御金·国峯 香港寬頻 E08'
+      - '香港 油尖旺御金·国峯 香港寬頻 E09'
+      - '香港 油尖旺御金·国峯 香港寬頻 E10'
+  -
+    name: ✈️Telegram
+    type: select
+    proxies:
+      - 🔰国外流量
+      - '1 加入用户群: https://t.me/joinchat/Fhvyaxkq0Bg4YzBl'
+      - '1 加入用户群: https://t.me/joinchat/Fhvyaxkq0Bg4YzBl - 1350 单端口'
+      - '1 备用官网 http://sgicc.airport-gov-cn.com:59999'
+      - '1认准官网: https://ユーザーパネル.ぜんにっぽんくうゆ.com'
+      - '1认准官网: https://ユーザーパネル.ぜんにっぽんくうゆ.com - 1350 单端口'
+      - 'IPV6 俄罗斯 E01'
+      - 'IPV6 印度 E01'
+      - 'IPV6 日本 E01'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E01'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E02'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E03'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E04'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E05'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E06'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E07'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E08'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E09'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E10'
+      - '中国-印度 班加罗尔 एयरटेल IPLC E01'
+      - '中国-印度 班加罗尔 एयरटेल IPLC E02'
+      - '中国-印度 班加罗尔 एयरटेल IPLC E03'
+      - '中国-印度 班加罗尔 एयरटेल IPLC E04'
+      - '中国-印度 班加罗尔 एयरटेल IPLC E05'
+      - '中国-印度 班加罗尔 एयरटेल IPLC E06'
+      - '中国-印度 班加罗尔 एयरटेल IPLC E07'
+      - '中国-印度 班加罗尔 एयरटेल IPLC E08'
+      - '中国-台湾 IEPL HiNet固接 E01 Netflix 动画疯'
+      - '中国-台湾 IEPL HiNet固接 E02 Netflix 动画疯'
+      - '中国-台湾 IEPL HiNet固接 E03 Netflix 动画疯'
+      - '中国-台湾 IEPL HiNet固接 E04 Netflix 动画疯'
+      - '中国-台湾 IEPL HiNet固接 E05 Netflix 动画疯'
+      - '中国-台湾 IEPL HiNet固接 E06 Netflix 动画疯'
+      - '中国-台湾 IEPL HiNet固接 E07 Netflix 动画疯'
+      - '中国-台湾 IEPL HiNet固接 E08 Netflix 动画疯'
+      - '中国-台湾 IEPL HiNet固接 E09 Netflix 动画疯'
+      - '中国-台湾 IEPL HiNet固接 E10 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E01 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E02 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E03 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E04 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E05 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E06 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E07 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E08 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E09 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E10 Netflix 动画疯'
+      - '中国-台湾宜兰 IPLC E01'
+      - '中国-台湾宜兰 IPLC E02'
+      - '中国-台湾宜兰 IPLC E03'
+      - '中国-台湾宜兰 IPLC E04'
+      - '中国-台湾宜兰 IPLC E05'
+      - '中国-台湾宜兰 IPLC E06'
+      - '中国-台湾宜兰 IPLC E07'
+      - '中国-台湾宜兰 IPLC E08'
+      - '中国-台湾宜兰 IPLC E09'
+      - '中国-台湾宜兰 IPLC E10'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E01 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E02 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E03 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E04 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E05 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E06 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E07 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E08 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E09 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E10 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E11 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E12 Netflix'
+      - '中国-日本 沪日IPLC传输 Equinix-TY8 E01 Netflix'
+      - '中国-日本 沪日IPLC传输 Equinix-TY8 E02 Netflix'
+      - '中国-日本 沪日IPLC传输 Equinix-TY8 E03 Netflix'
+      - '中国-日本 沪日IPLC传输 Equinix-TY8 E04 Netflix'
+      - '中国-日本 沪日IPLC传输 Equinix-TY8 E05 Netflix'
+      - '中国-日本 沪日IPLC传输 Equinix-TY8 E06 Netflix'
+      - '中国-英国伦敦电信 IEPL E01'
+      - '中国-英国伦敦电信 IEPL E02'
+      - '中国-英国伦敦电信 IEPL E03'
+      - '中国-英国伦敦电信 IEPL E04'
+      - '中国-英国伦敦电信 IEPL E05'
+      - '中国-英国伦敦电信 IEPL E06'
+      - '中国-韩国 IEPL E 01'
+      - '中国-韩国 IEPL E 02'
+      - '中国-韩国 IEPL E 03'
+      - '中国-韩国 IEPL E 04'
+      - '中国-韩国 IEPL E 05'
+      - '中国-韩国 IEPL E 06'
+      - '中国-韩国 IEPL E 07'
+      - '中国-韩国 IEPL E 08'
+      - '中国-韩国 IEPL E 09'
+      - '中国-韩国 IEPL E 10'
+      - '中国-香港 IEPL Equinix HK2 E 01'
+      - '中国-香港 IEPL Equinix HK2 E 02'
+      - '中国-香港 IEPL Equinix HK2 E 03'
+      - '中国-香港 IEPL Equinix HK2 E 04'
+      - '中国-香港 IEPL Equinix HK2 E 05'
+      - '中国-香港 IEPL Equinix HK2 E 06'
+      - '中国-香港 IEPL Equinix HK2 E 07'
+      - '中国-香港 IEPL Equinix HK2 E 08'
+      - '中国-香港 IEPL Equinix HK2 E 09'
+      - '中国-香港 IEPL Equinix HK2 E 10'
+      - '中国-香港 IEPL Equinix HK2 E 11'
+      - '中国-香港 IEPL Equinix HK2 E 12'
+      - '中国-香港 IEPL Equinix HK2 E 13'
+      - '中国-香港 IEPL Equinix HK2 E 14'
+      - '中国-香港 IEPL Equinix HK2 E 15'
+      - '中国-香港 IEPL Equinix HK2 E 16'
+      - '中国-香港 IEPL Equinix HK2 E 17'
+      - '中国-香港 IEPL Equinix HK2 E 18'
+      - '中国-香港 IEPL Equinix HK2 E 19'
+      - '中国-香港 IEPL Equinix HK2 E 20'
+      - '中港专线 IPLC E01 1000Mbps'
+      - '中港专线 IPLC E02 1000Mbps'
+      - '中港专线 IPLC E03 1000Mbps'
+      - '中港专线 IPLC E04 1000Mbps'
+      - '中港专线 IPLC E05 1000Mbps'
+      - '中港专线 IPLC E06 1000Mbps'
+      - '中港专线 IPLC E07 1000Mbps'
+      - '中港专线 IPLC E08 1000Mbps'
+      - '中港专线 IPLC E09 1000Mbps'
+      - '中港专线 IPLC E10 1000Mbps'
+      - '中港专线 IPLC E11 1000Mbps'
+      - '中港专线 IPLC E12 1000Mbps'
+      - '中港专线 IPLC E13 1000Mbps'
+      - '中港专线 IPLC E14 1000Mbps'
+      - '中港专线 IPLC E15 1000Mbps'
+      - '中港专线 IPLC E161000Mbps'
+      - '中港专线 IPLC E17 1000Mbps'
+      - '中港专线 IPLC E18 1000Mbps'
+      - '中港专线 IPLC E19 1000Mbps'
+      - '中港专线 IPLC E20 1000Mbps'
+      - '单端口测试 - 1350 单端口'
+      - 因V2ray重大漏洞问题，暂时下架全部V2节点。请使用ssr/ss连接方式进行使用。
+      - '新加坡 Legacy Magic IEPL 中继 E01 Netflix'
+      - '新加坡 Legacy Magic IEPL 中继 E02 Netflix'
+      - '新加坡 Legacy Magic IEPL 中继 E03 Netflix'
+      - '新加坡 Legacy Magic IEPL 中继 E04 Netflix'
+      - '新加坡 Legacy Magic IEPL 中继 E05 Netflix'
+      - '新加坡 Magic IEPL 中继 E01 Netflix'
+      - '新加坡 Magic IEPL 中继 E02 Netflix'
+      - '新加坡 Magic IEPL 中继 E03 Netflix'
+      - '新加坡 Magic IEPL 中继 E04 Netflix'
+      - '新加坡 Magic IEPL 中继 E05 Netflix'
+      - '日本 ソフトバンク E01 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E02 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E03 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E04 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E05 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E06 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E07 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E08 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E09 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E10 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E11 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E12 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E13 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E14 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E15 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E16 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E17 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E18 500Mbps 1倍 Netflix'
+      - '日本 まつやまし auひかり ホーム1ギガ E 01'
+      - '日本 まつやまし auひかり ホーム1ギガ E 02'
+      - '日本 まつやまし auひかり ホーム1ギガ E 03'
+      - '日本 まつやまし auひかり ホーム1ギガ E 04'
+      - '日本 まつやまし auひかり ホーム1ギガ E 05'
+      - '日本 まつやまし auひかり ホーム1ギガ E 06'
+      - '日本 まつやまし auひかり ホーム1ギガ E 07'
+      - '日本 まつやまし auひかり ホーム1ギガ E 08'
+      - '日本 まつやまし auひかり ホーム1ギガ E 09'
+      - '日本 まつやまし auひかり ホーム1ギガ E 10'
+      - '日本 まつやまし auひかり ホーム1ギガ E 11'
+      - '日本 まつやまし auひかり ホーム1ギガ E 12'
+      - '本站无Ins推广渠道 Ins推广渠道均为二手倒卖'
+      - '本站无QQ购买渠道 QQ卖家购买均为二手倒卖'
+      - '本站无微信购买渠道 微信购买均为二手倒卖'
+      - '本站无微店购买渠道 微店购买均为二手倒卖'
+      - '校园 41 速度较慢非校园版用户不推荐使用'
+      - '校园 42 速度较慢非校园版用户不推荐使用'
+      - '校园 43 速度较慢非校园版用户不推荐使用'
+      - '校园 44 速度较慢非校园版用户不推荐使用'
+      - '校园 45 速度较慢非校园版用户不推荐使用'
+      - '校园 46 速度较慢非校园版用户不推荐使用'
+      - '校园 47 速度较慢非校园版用户不推荐使用'
+      - '校园 48 速度较慢非校园版用户不推荐使用'
+      - '校园 49 速度较慢非校园版用户不推荐使用'
+      - '校园 50 速度较慢非校园版用户不推荐使用'
+      - '沪港 IEPL专线 港区TVB/HBO/Netflix解锁 E01'
+      - '沪港 IEPL专线 港区TVB/HBO/Netflix解锁 E02'
+      - '沪港 IEPL专线 港区TVB/HBO/Netflix解锁 E03'
+      - '沪港 IEPL专线 港区TVB/HBO/Netflix解锁 E04'
+      - '沪港 IEPL专线 港区TVB/HBO/Netflix解锁 E05'
+      - '美国 Magic Anycast 中继 E01'
+      - '美国 Magic Anycast 中继 E02'
+      - '美国 Magic Anycast 中继 E03'
+      - '美国 Magic Anycast 中继 E04'
+      - '美国 Magic IEPL 中继 E01'
+      - '美国 Magic IEPL 中继 E02'
+      - '美国 Magic IEPL 中继 E03'
+      - '美国 Magic IEPL 中继 E04'
+      - '美国 Magic IEPL 中继 E05'
+      - '美国实验性 IEPL 中继 E01'
+      - '美国实验性 IEPL 中继 E02'
+      - '美国实验性 IEPL 中继 E03'
+      - '美国实验性 IEPL 中继 E04'
+      - '美国实验性 IEPL 中继 E05'
+      - '美国广域网加速虚拟引擎 IEPL E01'
+      - '美国广域网加速虚拟引擎 IEPL E02'
+      - '美国广域网加速虚拟引擎 IEPL E03'
+      - '美国广域网加速虚拟引擎 IEPL E04'
+      - '美国广域网加速虚拟引擎 IEPL E05'
+      - '美国标准 IEPL 中继 E01'
+      - '美国标准 IEPL 中继 E02'
+      - '美国标准 IEPL 中继 E03'
+      - '美国标准 IEPL 中继 E04'
+      - '美国标准 IEPL 中继 E05'
+      - '美国高级 IEPL 中继 E01'
+      - '美国高级 IEPL 中继 E02'
+      - '美国高级 IEPL 中继 E03'
+      - '美国高级 IEPL 中继 E04'
+      - '美国高级 IEPL 中继 E05'
+      - '韩国 전라북도 전주시 商宽 E 01'
+      - '韩国 전라북도 전주시 商宽 E 02'
+      - '韩国 전라북도 전주시 商宽 E 03'
+      - '韩国 전라북도 전주시 商宽 E 04'
+      - '韩国 전라북도 전주시 商宽 E 05'
+      - '韩国 전라북도 전주시 商宽 E 06'
+      - '韩国 전라북도 전주시 商宽 E 07'
+      - '韩国 전라북도 전주시 商宽 E 08'
+      - '韩国 전라북도 전주시 商宽 E 09'
+      - '韩国 전라북도 전주시 商宽 E 10'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E01'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E02'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E03'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E04'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E05'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E06'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E07'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E08'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E09'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E10'
+      - '香港 油尖旺御金·国峯 香港寬頻 E01'
+      - '香港 油尖旺御金·国峯 香港寬頻 E02'
+      - '香港 油尖旺御金·国峯 香港寬頻 E03'
+      - '香港 油尖旺御金·国峯 香港寬頻 E04'
+      - '香港 油尖旺御金·国峯 香港寬頻 E05'
+      - '香港 油尖旺御金·国峯 香港寬頻 E06'
+      - '香港 油尖旺御金·国峯 香港寬頻 E07'
+      - '香港 油尖旺御金·国峯 香港寬頻 E08'
+      - '香港 油尖旺御金·国峯 香港寬頻 E09'
+      - '香港 油尖旺御金·国峯 香港寬頻 E10'
+  -
+    name: 🎬Youtube
+    type: select
+    proxies:
+      - 🔰国外流量
+      - '1 加入用户群: https://t.me/joinchat/Fhvyaxkq0Bg4YzBl'
+      - '1 加入用户群: https://t.me/joinchat/Fhvyaxkq0Bg4YzBl - 1350 单端口'
+      - '1 备用官网 http://sgicc.airport-gov-cn.com:59999'
+      - '1认准官网: https://ユーザーパネル.ぜんにっぽんくうゆ.com'
+      - '1认准官网: https://ユーザーパネル.ぜんにっぽんくうゆ.com - 1350 单端口'
+      - 'IPV6 俄罗斯 E01'
+      - 'IPV6 印度 E01'
+      - 'IPV6 日本 E01'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E01'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E02'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E03'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E04'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E05'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E06'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E07'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E08'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E09'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E10'
+      - '中国-印度 班加罗尔 एयरटेल IPLC E01'
+      - '中国-印度 班加罗尔 एयरटेल IPLC E02'
+      - '中国-印度 班加罗尔 एयरटेल IPLC E03'
+      - '中国-印度 班加罗尔 एयरटेल IPLC E04'
+      - '中国-印度 班加罗尔 एयरटेल IPLC E05'
+      - '中国-印度 班加罗尔 एयरटेल IPLC E06'
+      - '中国-印度 班加罗尔 एयरटेल IPLC E07'
+      - '中国-印度 班加罗尔 एयरटेल IPLC E08'
+      - '中国-台湾 IEPL HiNet固接 E01 Netflix 动画疯'
+      - '中国-台湾 IEPL HiNet固接 E02 Netflix 动画疯'
+      - '中国-台湾 IEPL HiNet固接 E03 Netflix 动画疯'
+      - '中国-台湾 IEPL HiNet固接 E04 Netflix 动画疯'
+      - '中国-台湾 IEPL HiNet固接 E05 Netflix 动画疯'
+      - '中国-台湾 IEPL HiNet固接 E06 Netflix 动画疯'
+      - '中国-台湾 IEPL HiNet固接 E07 Netflix 动画疯'
+      - '中国-台湾 IEPL HiNet固接 E08 Netflix 动画疯'
+      - '中国-台湾 IEPL HiNet固接 E09 Netflix 动画疯'
+      - '中国-台湾 IEPL HiNet固接 E10 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E01 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E02 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E03 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E04 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E05 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E06 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E07 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E08 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E09 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E10 Netflix 动画疯'
+      - '中国-台湾宜兰 IPLC E01'
+      - '中国-台湾宜兰 IPLC E02'
+      - '中国-台湾宜兰 IPLC E03'
+      - '中国-台湾宜兰 IPLC E04'
+      - '中国-台湾宜兰 IPLC E05'
+      - '中国-台湾宜兰 IPLC E06'
+      - '中国-台湾宜兰 IPLC E07'
+      - '中国-台湾宜兰 IPLC E08'
+      - '中国-台湾宜兰 IPLC E09'
+      - '中国-台湾宜兰 IPLC E10'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E01 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E02 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E03 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E04 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E05 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E06 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E07 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E08 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E09 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E10 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E11 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E12 Netflix'
+      - '中国-日本 沪日IPLC传输 Equinix-TY8 E01 Netflix'
+      - '中国-日本 沪日IPLC传输 Equinix-TY8 E02 Netflix'
+      - '中国-日本 沪日IPLC传输 Equinix-TY8 E03 Netflix'
+      - '中国-日本 沪日IPLC传输 Equinix-TY8 E04 Netflix'
+      - '中国-日本 沪日IPLC传输 Equinix-TY8 E05 Netflix'
+      - '中国-日本 沪日IPLC传输 Equinix-TY8 E06 Netflix'
+      - '中国-英国伦敦电信 IEPL E01'
+      - '中国-英国伦敦电信 IEPL E02'
+      - '中国-英国伦敦电信 IEPL E03'
+      - '中国-英国伦敦电信 IEPL E04'
+      - '中国-英国伦敦电信 IEPL E05'
+      - '中国-英国伦敦电信 IEPL E06'
+      - '中国-韩国 IEPL E 01'
+      - '中国-韩国 IEPL E 02'
+      - '中国-韩国 IEPL E 03'
+      - '中国-韩国 IEPL E 04'
+      - '中国-韩国 IEPL E 05'
+      - '中国-韩国 IEPL E 06'
+      - '中国-韩国 IEPL E 07'
+      - '中国-韩国 IEPL E 08'
+      - '中国-韩国 IEPL E 09'
+      - '中国-韩国 IEPL E 10'
+      - '中国-香港 IEPL Equinix HK2 E 01'
+      - '中国-香港 IEPL Equinix HK2 E 02'
+      - '中国-香港 IEPL Equinix HK2 E 03'
+      - '中国-香港 IEPL Equinix HK2 E 04'
+      - '中国-香港 IEPL Equinix HK2 E 05'
+      - '中国-香港 IEPL Equinix HK2 E 06'
+      - '中国-香港 IEPL Equinix HK2 E 07'
+      - '中国-香港 IEPL Equinix HK2 E 08'
+      - '中国-香港 IEPL Equinix HK2 E 09'
+      - '中国-香港 IEPL Equinix HK2 E 10'
+      - '中国-香港 IEPL Equinix HK2 E 11'
+      - '中国-香港 IEPL Equinix HK2 E 12'
+      - '中国-香港 IEPL Equinix HK2 E 13'
+      - '中国-香港 IEPL Equinix HK2 E 14'
+      - '中国-香港 IEPL Equinix HK2 E 15'
+      - '中国-香港 IEPL Equinix HK2 E 16'
+      - '中国-香港 IEPL Equinix HK2 E 17'
+      - '中国-香港 IEPL Equinix HK2 E 18'
+      - '中国-香港 IEPL Equinix HK2 E 19'
+      - '中国-香港 IEPL Equinix HK2 E 20'
+      - '中港专线 IPLC E01 1000Mbps'
+      - '中港专线 IPLC E02 1000Mbps'
+      - '中港专线 IPLC E03 1000Mbps'
+      - '中港专线 IPLC E04 1000Mbps'
+      - '中港专线 IPLC E05 1000Mbps'
+      - '中港专线 IPLC E06 1000Mbps'
+      - '中港专线 IPLC E07 1000Mbps'
+      - '中港专线 IPLC E08 1000Mbps'
+      - '中港专线 IPLC E09 1000Mbps'
+      - '中港专线 IPLC E10 1000Mbps'
+      - '中港专线 IPLC E11 1000Mbps'
+      - '中港专线 IPLC E12 1000Mbps'
+      - '中港专线 IPLC E13 1000Mbps'
+      - '中港专线 IPLC E14 1000Mbps'
+      - '中港专线 IPLC E15 1000Mbps'
+      - '中港专线 IPLC E161000Mbps'
+      - '中港专线 IPLC E17 1000Mbps'
+      - '中港专线 IPLC E18 1000Mbps'
+      - '中港专线 IPLC E19 1000Mbps'
+      - '中港专线 IPLC E20 1000Mbps'
+      - '单端口测试 - 1350 单端口'
+      - 因V2ray重大漏洞问题，暂时下架全部V2节点。请使用ssr/ss连接方式进行使用。
+      - '新加坡 Legacy Magic IEPL 中继 E01 Netflix'
+      - '新加坡 Legacy Magic IEPL 中继 E02 Netflix'
+      - '新加坡 Legacy Magic IEPL 中继 E03 Netflix'
+      - '新加坡 Legacy Magic IEPL 中继 E04 Netflix'
+      - '新加坡 Legacy Magic IEPL 中继 E05 Netflix'
+      - '新加坡 Magic IEPL 中继 E01 Netflix'
+      - '新加坡 Magic IEPL 中继 E02 Netflix'
+      - '新加坡 Magic IEPL 中继 E03 Netflix'
+      - '新加坡 Magic IEPL 中继 E04 Netflix'
+      - '新加坡 Magic IEPL 中继 E05 Netflix'
+      - '日本 ソフトバンク E01 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E02 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E03 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E04 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E05 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E06 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E07 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E08 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E09 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E10 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E11 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E12 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E13 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E14 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E15 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E16 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E17 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E18 500Mbps 1倍 Netflix'
+      - '日本 まつやまし auひかり ホーム1ギガ E 01'
+      - '日本 まつやまし auひかり ホーム1ギガ E 02'
+      - '日本 まつやまし auひかり ホーム1ギガ E 03'
+      - '日本 まつやまし auひかり ホーム1ギガ E 04'
+      - '日本 まつやまし auひかり ホーム1ギガ E 05'
+      - '日本 まつやまし auひかり ホーム1ギガ E 06'
+      - '日本 まつやまし auひかり ホーム1ギガ E 07'
+      - '日本 まつやまし auひかり ホーム1ギガ E 08'
+      - '日本 まつやまし auひかり ホーム1ギガ E 09'
+      - '日本 まつやまし auひかり ホーム1ギガ E 10'
+      - '日本 まつやまし auひかり ホーム1ギガ E 11'
+      - '日本 まつやまし auひかり ホーム1ギガ E 12'
+      - '本站无Ins推广渠道 Ins推广渠道均为二手倒卖'
+      - '本站无QQ购买渠道 QQ卖家购买均为二手倒卖'
+      - '本站无微信购买渠道 微信购买均为二手倒卖'
+      - '本站无微店购买渠道 微店购买均为二手倒卖'
+      - '校园 41 速度较慢非校园版用户不推荐使用'
+      - '校园 42 速度较慢非校园版用户不推荐使用'
+      - '校园 43 速度较慢非校园版用户不推荐使用'
+      - '校园 44 速度较慢非校园版用户不推荐使用'
+      - '校园 45 速度较慢非校园版用户不推荐使用'
+      - '校园 46 速度较慢非校园版用户不推荐使用'
+      - '校园 47 速度较慢非校园版用户不推荐使用'
+      - '校园 48 速度较慢非校园版用户不推荐使用'
+      - '校园 49 速度较慢非校园版用户不推荐使用'
+      - '校园 50 速度较慢非校园版用户不推荐使用'
+      - '沪港 IEPL专线 港区TVB/HBO/Netflix解锁 E01'
+      - '沪港 IEPL专线 港区TVB/HBO/Netflix解锁 E02'
+      - '沪港 IEPL专线 港区TVB/HBO/Netflix解锁 E03'
+      - '沪港 IEPL专线 港区TVB/HBO/Netflix解锁 E04'
+      - '沪港 IEPL专线 港区TVB/HBO/Netflix解锁 E05'
+      - '美国 Magic Anycast 中继 E01'
+      - '美国 Magic Anycast 中继 E02'
+      - '美国 Magic Anycast 中继 E03'
+      - '美国 Magic Anycast 中继 E04'
+      - '美国 Magic IEPL 中继 E01'
+      - '美国 Magic IEPL 中继 E02'
+      - '美国 Magic IEPL 中继 E03'
+      - '美国 Magic IEPL 中继 E04'
+      - '美国 Magic IEPL 中继 E05'
+      - '美国实验性 IEPL 中继 E01'
+      - '美国实验性 IEPL 中继 E02'
+      - '美国实验性 IEPL 中继 E03'
+      - '美国实验性 IEPL 中继 E04'
+      - '美国实验性 IEPL 中继 E05'
+      - '美国广域网加速虚拟引擎 IEPL E01'
+      - '美国广域网加速虚拟引擎 IEPL E02'
+      - '美国广域网加速虚拟引擎 IEPL E03'
+      - '美国广域网加速虚拟引擎 IEPL E04'
+      - '美国广域网加速虚拟引擎 IEPL E05'
+      - '美国标准 IEPL 中继 E01'
+      - '美国标准 IEPL 中继 E02'
+      - '美国标准 IEPL 中继 E03'
+      - '美国标准 IEPL 中继 E04'
+      - '美国标准 IEPL 中继 E05'
+      - '美国高级 IEPL 中继 E01'
+      - '美国高级 IEPL 中继 E02'
+      - '美国高级 IEPL 中继 E03'
+      - '美国高级 IEPL 中继 E04'
+      - '美国高级 IEPL 中继 E05'
+      - '韩国 전라북도 전주시 商宽 E 01'
+      - '韩国 전라북도 전주시 商宽 E 02'
+      - '韩国 전라북도 전주시 商宽 E 03'
+      - '韩国 전라북도 전주시 商宽 E 04'
+      - '韩国 전라북도 전주시 商宽 E 05'
+      - '韩国 전라북도 전주시 商宽 E 06'
+      - '韩国 전라북도 전주시 商宽 E 07'
+      - '韩国 전라북도 전주시 商宽 E 08'
+      - '韩国 전라북도 전주시 商宽 E 09'
+      - '韩国 전라북도 전주시 商宽 E 10'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E01'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E02'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E03'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E04'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E05'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E06'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E07'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E08'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E09'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E10'
+      - '香港 油尖旺御金·国峯 香港寬頻 E01'
+      - '香港 油尖旺御金·国峯 香港寬頻 E02'
+      - '香港 油尖旺御金·国峯 香港寬頻 E03'
+      - '香港 油尖旺御金·国峯 香港寬頻 E04'
+      - '香港 油尖旺御金·国峯 香港寬頻 E05'
+      - '香港 油尖旺御金·国峯 香港寬頻 E06'
+      - '香港 油尖旺御金·国峯 香港寬頻 E07'
+      - '香港 油尖旺御金·国峯 香港寬頻 E08'
+      - '香港 油尖旺御金·国峯 香港寬頻 E09'
+      - '香港 油尖旺御金·国峯 香港寬頻 E10'
+  -
+    name: 🎬Netflix
+    type: select
+    proxies:
+      - 🔰国外流量
+      - '1 加入用户群: https://t.me/joinchat/Fhvyaxkq0Bg4YzBl'
+      - '1 加入用户群: https://t.me/joinchat/Fhvyaxkq0Bg4YzBl - 1350 单端口'
+      - '1 备用官网 http://sgicc.airport-gov-cn.com:59999'
+      - '1认准官网: https://ユーザーパネル.ぜんにっぽんくうゆ.com'
+      - '1认准官网: https://ユーザーパネル.ぜんにっぽんくうゆ.com - 1350 单端口'
+      - 'IPV6 俄罗斯 E01'
+      - 'IPV6 印度 E01'
+      - 'IPV6 日本 E01'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E01'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E02'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E03'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E04'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E05'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E06'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E07'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E08'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E09'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E10'
+      - '中国-印度 班加罗尔 एयरटेल IPLC E01'
+      - '中国-印度 班加罗尔 एयरटेल IPLC E02'
+      - '中国-印度 班加罗尔 एयरटेल IPLC E03'
+      - '中国-印度 班加罗尔 एयरटेल IPLC E04'
+      - '中国-印度 班加罗尔 एयरटेल IPLC E05'
+      - '中国-印度 班加罗尔 एयरटेल IPLC E06'
+      - '中国-印度 班加罗尔 एयरटेल IPLC E07'
+      - '中国-印度 班加罗尔 एयरटेल IPLC E08'
+      - '中国-台湾 IEPL HiNet固接 E01 Netflix 动画疯'
+      - '中国-台湾 IEPL HiNet固接 E02 Netflix 动画疯'
+      - '中国-台湾 IEPL HiNet固接 E03 Netflix 动画疯'
+      - '中国-台湾 IEPL HiNet固接 E04 Netflix 动画疯'
+      - '中国-台湾 IEPL HiNet固接 E05 Netflix 动画疯'
+      - '中国-台湾 IEPL HiNet固接 E06 Netflix 动画疯'
+      - '中国-台湾 IEPL HiNet固接 E07 Netflix 动画疯'
+      - '中国-台湾 IEPL HiNet固接 E08 Netflix 动画疯'
+      - '中国-台湾 IEPL HiNet固接 E09 Netflix 动画疯'
+      - '中国-台湾 IEPL HiNet固接 E10 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E01 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E02 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E03 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E04 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E05 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E06 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E07 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E08 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E09 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E10 Netflix 动画疯'
+      - '中国-台湾宜兰 IPLC E01'
+      - '中国-台湾宜兰 IPLC E02'
+      - '中国-台湾宜兰 IPLC E03'
+      - '中国-台湾宜兰 IPLC E04'
+      - '中国-台湾宜兰 IPLC E05'
+      - '中国-台湾宜兰 IPLC E06'
+      - '中国-台湾宜兰 IPLC E07'
+      - '中国-台湾宜兰 IPLC E08'
+      - '中国-台湾宜兰 IPLC E09'
+      - '中国-台湾宜兰 IPLC E10'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E01 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E02 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E03 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E04 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E05 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E06 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E07 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E08 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E09 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E10 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E11 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E12 Netflix'
+      - '中国-日本 沪日IPLC传输 Equinix-TY8 E01 Netflix'
+      - '中国-日本 沪日IPLC传输 Equinix-TY8 E02 Netflix'
+      - '中国-日本 沪日IPLC传输 Equinix-TY8 E03 Netflix'
+      - '中国-日本 沪日IPLC传输 Equinix-TY8 E04 Netflix'
+      - '中国-日本 沪日IPLC传输 Equinix-TY8 E05 Netflix'
+      - '中国-日本 沪日IPLC传输 Equinix-TY8 E06 Netflix'
+      - '中国-英国伦敦电信 IEPL E01'
+      - '中国-英国伦敦电信 IEPL E02'
+      - '中国-英国伦敦电信 IEPL E03'
+      - '中国-英国伦敦电信 IEPL E04'
+      - '中国-英国伦敦电信 IEPL E05'
+      - '中国-英国伦敦电信 IEPL E06'
+      - '中国-韩国 IEPL E 01'
+      - '中国-韩国 IEPL E 02'
+      - '中国-韩国 IEPL E 03'
+      - '中国-韩国 IEPL E 04'
+      - '中国-韩国 IEPL E 05'
+      - '中国-韩国 IEPL E 06'
+      - '中国-韩国 IEPL E 07'
+      - '中国-韩国 IEPL E 08'
+      - '中国-韩国 IEPL E 09'
+      - '中国-韩国 IEPL E 10'
+      - '中国-香港 IEPL Equinix HK2 E 01'
+      - '中国-香港 IEPL Equinix HK2 E 02'
+      - '中国-香港 IEPL Equinix HK2 E 03'
+      - '中国-香港 IEPL Equinix HK2 E 04'
+      - '中国-香港 IEPL Equinix HK2 E 05'
+      - '中国-香港 IEPL Equinix HK2 E 06'
+      - '中国-香港 IEPL Equinix HK2 E 07'
+      - '中国-香港 IEPL Equinix HK2 E 08'
+      - '中国-香港 IEPL Equinix HK2 E 09'
+      - '中国-香港 IEPL Equinix HK2 E 10'
+      - '中国-香港 IEPL Equinix HK2 E 11'
+      - '中国-香港 IEPL Equinix HK2 E 12'
+      - '中国-香港 IEPL Equinix HK2 E 13'
+      - '中国-香港 IEPL Equinix HK2 E 14'
+      - '中国-香港 IEPL Equinix HK2 E 15'
+      - '中国-香港 IEPL Equinix HK2 E 16'
+      - '中国-香港 IEPL Equinix HK2 E 17'
+      - '中国-香港 IEPL Equinix HK2 E 18'
+      - '中国-香港 IEPL Equinix HK2 E 19'
+      - '中国-香港 IEPL Equinix HK2 E 20'
+      - '中港专线 IPLC E01 1000Mbps'
+      - '中港专线 IPLC E02 1000Mbps'
+      - '中港专线 IPLC E03 1000Mbps'
+      - '中港专线 IPLC E04 1000Mbps'
+      - '中港专线 IPLC E05 1000Mbps'
+      - '中港专线 IPLC E06 1000Mbps'
+      - '中港专线 IPLC E07 1000Mbps'
+      - '中港专线 IPLC E08 1000Mbps'
+      - '中港专线 IPLC E09 1000Mbps'
+      - '中港专线 IPLC E10 1000Mbps'
+      - '中港专线 IPLC E11 1000Mbps'
+      - '中港专线 IPLC E12 1000Mbps'
+      - '中港专线 IPLC E13 1000Mbps'
+      - '中港专线 IPLC E14 1000Mbps'
+      - '中港专线 IPLC E15 1000Mbps'
+      - '中港专线 IPLC E161000Mbps'
+      - '中港专线 IPLC E17 1000Mbps'
+      - '中港专线 IPLC E18 1000Mbps'
+      - '中港专线 IPLC E19 1000Mbps'
+      - '中港专线 IPLC E20 1000Mbps'
+      - '单端口测试 - 1350 单端口'
+      - 因V2ray重大漏洞问题，暂时下架全部V2节点。请使用ssr/ss连接方式进行使用。
+      - '新加坡 Legacy Magic IEPL 中继 E01 Netflix'
+      - '新加坡 Legacy Magic IEPL 中继 E02 Netflix'
+      - '新加坡 Legacy Magic IEPL 中继 E03 Netflix'
+      - '新加坡 Legacy Magic IEPL 中继 E04 Netflix'
+      - '新加坡 Legacy Magic IEPL 中继 E05 Netflix'
+      - '新加坡 Magic IEPL 中继 E01 Netflix'
+      - '新加坡 Magic IEPL 中继 E02 Netflix'
+      - '新加坡 Magic IEPL 中继 E03 Netflix'
+      - '新加坡 Magic IEPL 中继 E04 Netflix'
+      - '新加坡 Magic IEPL 中继 E05 Netflix'
+      - '日本 ソフトバンク E01 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E02 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E03 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E04 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E05 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E06 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E07 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E08 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E09 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E10 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E11 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E12 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E13 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E14 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E15 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E16 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E17 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E18 500Mbps 1倍 Netflix'
+      - '日本 まつやまし auひかり ホーム1ギガ E 01'
+      - '日本 まつやまし auひかり ホーム1ギガ E 02'
+      - '日本 まつやまし auひかり ホーム1ギガ E 03'
+      - '日本 まつやまし auひかり ホーム1ギガ E 04'
+      - '日本 まつやまし auひかり ホーム1ギガ E 05'
+      - '日本 まつやまし auひかり ホーム1ギガ E 06'
+      - '日本 まつやまし auひかり ホーム1ギガ E 07'
+      - '日本 まつやまし auひかり ホーム1ギガ E 08'
+      - '日本 まつやまし auひかり ホーム1ギガ E 09'
+      - '日本 まつやまし auひかり ホーム1ギガ E 10'
+      - '日本 まつやまし auひかり ホーム1ギガ E 11'
+      - '日本 まつやまし auひかり ホーム1ギガ E 12'
+      - '本站无Ins推广渠道 Ins推广渠道均为二手倒卖'
+      - '本站无QQ购买渠道 QQ卖家购买均为二手倒卖'
+      - '本站无微信购买渠道 微信购买均为二手倒卖'
+      - '本站无微店购买渠道 微店购买均为二手倒卖'
+      - '校园 41 速度较慢非校园版用户不推荐使用'
+      - '校园 42 速度较慢非校园版用户不推荐使用'
+      - '校园 43 速度较慢非校园版用户不推荐使用'
+      - '校园 44 速度较慢非校园版用户不推荐使用'
+      - '校园 45 速度较慢非校园版用户不推荐使用'
+      - '校园 46 速度较慢非校园版用户不推荐使用'
+      - '校园 47 速度较慢非校园版用户不推荐使用'
+      - '校园 48 速度较慢非校园版用户不推荐使用'
+      - '校园 49 速度较慢非校园版用户不推荐使用'
+      - '校园 50 速度较慢非校园版用户不推荐使用'
+      - '沪港 IEPL专线 港区TVB/HBO/Netflix解锁 E01'
+      - '沪港 IEPL专线 港区TVB/HBO/Netflix解锁 E02'
+      - '沪港 IEPL专线 港区TVB/HBO/Netflix解锁 E03'
+      - '沪港 IEPL专线 港区TVB/HBO/Netflix解锁 E04'
+      - '沪港 IEPL专线 港区TVB/HBO/Netflix解锁 E05'
+      - '美国 Magic Anycast 中继 E01'
+      - '美国 Magic Anycast 中继 E02'
+      - '美国 Magic Anycast 中继 E03'
+      - '美国 Magic Anycast 中继 E04'
+      - '美国 Magic IEPL 中继 E01'
+      - '美国 Magic IEPL 中继 E02'
+      - '美国 Magic IEPL 中继 E03'
+      - '美国 Magic IEPL 中继 E04'
+      - '美国 Magic IEPL 中继 E05'
+      - '美国实验性 IEPL 中继 E01'
+      - '美国实验性 IEPL 中继 E02'
+      - '美国实验性 IEPL 中继 E03'
+      - '美国实验性 IEPL 中继 E04'
+      - '美国实验性 IEPL 中继 E05'
+      - '美国广域网加速虚拟引擎 IEPL E01'
+      - '美国广域网加速虚拟引擎 IEPL E02'
+      - '美国广域网加速虚拟引擎 IEPL E03'
+      - '美国广域网加速虚拟引擎 IEPL E04'
+      - '美国广域网加速虚拟引擎 IEPL E05'
+      - '美国标准 IEPL 中继 E01'
+      - '美国标准 IEPL 中继 E02'
+      - '美国标准 IEPL 中继 E03'
+      - '美国标准 IEPL 中继 E04'
+      - '美国标准 IEPL 中继 E05'
+      - '美国高级 IEPL 中继 E01'
+      - '美国高级 IEPL 中继 E02'
+      - '美国高级 IEPL 中继 E03'
+      - '美国高级 IEPL 中继 E04'
+      - '美国高级 IEPL 中继 E05'
+      - '韩国 전라북도 전주시 商宽 E 01'
+      - '韩国 전라북도 전주시 商宽 E 02'
+      - '韩国 전라북도 전주시 商宽 E 03'
+      - '韩国 전라북도 전주시 商宽 E 04'
+      - '韩国 전라북도 전주시 商宽 E 05'
+      - '韩国 전라북도 전주시 商宽 E 06'
+      - '韩国 전라북도 전주시 商宽 E 07'
+      - '韩国 전라북도 전주시 商宽 E 08'
+      - '韩国 전라북도 전주시 商宽 E 09'
+      - '韩国 전라북도 전주시 商宽 E 10'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E01'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E02'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E03'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E04'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E05'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E06'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E07'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E08'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E09'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E10'
+      - '香港 油尖旺御金·国峯 香港寬頻 E01'
+      - '香港 油尖旺御金·国峯 香港寬頻 E02'
+      - '香港 油尖旺御金·国峯 香港寬頻 E03'
+      - '香港 油尖旺御金·国峯 香港寬頻 E04'
+      - '香港 油尖旺御金·国峯 香港寬頻 E05'
+      - '香港 油尖旺御金·国峯 香港寬頻 E06'
+      - '香港 油尖旺御金·国峯 香港寬頻 E07'
+      - '香港 油尖旺御金·国峯 香港寬頻 E08'
+      - '香港 油尖旺御金·国峯 香港寬頻 E09'
+      - '香港 油尖旺御金·国峯 香港寬頻 E10'
+  -
+    name: 🎬哔哩哔哩
+    type: select
+    proxies:
+      - 🚀直接连接
+      - '1 加入用户群: https://t.me/joinchat/Fhvyaxkq0Bg4YzBl'
+      - '1 加入用户群: https://t.me/joinchat/Fhvyaxkq0Bg4YzBl - 1350 单端口'
+      - '1 备用官网 http://sgicc.airport-gov-cn.com:59999'
+      - '1认准官网: https://ユーザーパネル.ぜんにっぽんくうゆ.com'
+      - '1认准官网: https://ユーザーパネル.ぜんにっぽんくうゆ.com - 1350 单端口'
+      - 'IPV6 俄罗斯 E01'
+      - 'IPV6 印度 E01'
+      - 'IPV6 日本 E01'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E01'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E02'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E03'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E04'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E05'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E06'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E07'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E08'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E09'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E10'
+      - '中国-印度 班加罗尔 एयरटेल IPLC E01'
+      - '中国-印度 班加罗尔 एयरटेल IPLC E02'
+      - '中国-印度 班加罗尔 एयरटेल IPLC E03'
+      - '中国-印度 班加罗尔 एयरटेल IPLC E04'
+      - '中国-印度 班加罗尔 एयरटेल IPLC E05'
+      - '中国-印度 班加罗尔 एयरटेल IPLC E06'
+      - '中国-印度 班加罗尔 एयरटेल IPLC E07'
+      - '中国-印度 班加罗尔 एयरटेल IPLC E08'
+      - '中国-台湾 IEPL HiNet固接 E01 Netflix 动画疯'
+      - '中国-台湾 IEPL HiNet固接 E02 Netflix 动画疯'
+      - '中国-台湾 IEPL HiNet固接 E03 Netflix 动画疯'
+      - '中国-台湾 IEPL HiNet固接 E04 Netflix 动画疯'
+      - '中国-台湾 IEPL HiNet固接 E05 Netflix 动画疯'
+      - '中国-台湾 IEPL HiNet固接 E06 Netflix 动画疯'
+      - '中国-台湾 IEPL HiNet固接 E07 Netflix 动画疯'
+      - '中国-台湾 IEPL HiNet固接 E08 Netflix 动画疯'
+      - '中国-台湾 IEPL HiNet固接 E09 Netflix 动画疯'
+      - '中国-台湾 IEPL HiNet固接 E10 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E01 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E02 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E03 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E04 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E05 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E06 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E07 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E08 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E09 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E10 Netflix 动画疯'
+      - '中国-台湾宜兰 IPLC E01'
+      - '中国-台湾宜兰 IPLC E02'
+      - '中国-台湾宜兰 IPLC E03'
+      - '中国-台湾宜兰 IPLC E04'
+      - '中国-台湾宜兰 IPLC E05'
+      - '中国-台湾宜兰 IPLC E06'
+      - '中国-台湾宜兰 IPLC E07'
+      - '中国-台湾宜兰 IPLC E08'
+      - '中国-台湾宜兰 IPLC E09'
+      - '中国-台湾宜兰 IPLC E10'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E01 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E02 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E03 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E04 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E05 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E06 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E07 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E08 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E09 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E10 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E11 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E12 Netflix'
+      - '中国-日本 沪日IPLC传输 Equinix-TY8 E01 Netflix'
+      - '中国-日本 沪日IPLC传输 Equinix-TY8 E02 Netflix'
+      - '中国-日本 沪日IPLC传输 Equinix-TY8 E03 Netflix'
+      - '中国-日本 沪日IPLC传输 Equinix-TY8 E04 Netflix'
+      - '中国-日本 沪日IPLC传输 Equinix-TY8 E05 Netflix'
+      - '中国-日本 沪日IPLC传输 Equinix-TY8 E06 Netflix'
+      - '中国-英国伦敦电信 IEPL E01'
+      - '中国-英国伦敦电信 IEPL E02'
+      - '中国-英国伦敦电信 IEPL E03'
+      - '中国-英国伦敦电信 IEPL E04'
+      - '中国-英国伦敦电信 IEPL E05'
+      - '中国-英国伦敦电信 IEPL E06'
+      - '中国-韩国 IEPL E 01'
+      - '中国-韩国 IEPL E 02'
+      - '中国-韩国 IEPL E 03'
+      - '中国-韩国 IEPL E 04'
+      - '中国-韩国 IEPL E 05'
+      - '中国-韩国 IEPL E 06'
+      - '中国-韩国 IEPL E 07'
+      - '中国-韩国 IEPL E 08'
+      - '中国-韩国 IEPL E 09'
+      - '中国-韩国 IEPL E 10'
+      - '中国-香港 IEPL Equinix HK2 E 01'
+      - '中国-香港 IEPL Equinix HK2 E 02'
+      - '中国-香港 IEPL Equinix HK2 E 03'
+      - '中国-香港 IEPL Equinix HK2 E 04'
+      - '中国-香港 IEPL Equinix HK2 E 05'
+      - '中国-香港 IEPL Equinix HK2 E 06'
+      - '中国-香港 IEPL Equinix HK2 E 07'
+      - '中国-香港 IEPL Equinix HK2 E 08'
+      - '中国-香港 IEPL Equinix HK2 E 09'
+      - '中国-香港 IEPL Equinix HK2 E 10'
+      - '中国-香港 IEPL Equinix HK2 E 11'
+      - '中国-香港 IEPL Equinix HK2 E 12'
+      - '中国-香港 IEPL Equinix HK2 E 13'
+      - '中国-香港 IEPL Equinix HK2 E 14'
+      - '中国-香港 IEPL Equinix HK2 E 15'
+      - '中国-香港 IEPL Equinix HK2 E 16'
+      - '中国-香港 IEPL Equinix HK2 E 17'
+      - '中国-香港 IEPL Equinix HK2 E 18'
+      - '中国-香港 IEPL Equinix HK2 E 19'
+      - '中国-香港 IEPL Equinix HK2 E 20'
+      - '中港专线 IPLC E01 1000Mbps'
+      - '中港专线 IPLC E02 1000Mbps'
+      - '中港专线 IPLC E03 1000Mbps'
+      - '中港专线 IPLC E04 1000Mbps'
+      - '中港专线 IPLC E05 1000Mbps'
+      - '中港专线 IPLC E06 1000Mbps'
+      - '中港专线 IPLC E07 1000Mbps'
+      - '中港专线 IPLC E08 1000Mbps'
+      - '中港专线 IPLC E09 1000Mbps'
+      - '中港专线 IPLC E10 1000Mbps'
+      - '中港专线 IPLC E11 1000Mbps'
+      - '中港专线 IPLC E12 1000Mbps'
+      - '中港专线 IPLC E13 1000Mbps'
+      - '中港专线 IPLC E14 1000Mbps'
+      - '中港专线 IPLC E15 1000Mbps'
+      - '中港专线 IPLC E161000Mbps'
+      - '中港专线 IPLC E17 1000Mbps'
+      - '中港专线 IPLC E18 1000Mbps'
+      - '中港专线 IPLC E19 1000Mbps'
+      - '中港专线 IPLC E20 1000Mbps'
+      - '单端口测试 - 1350 单端口'
+      - 因V2ray重大漏洞问题，暂时下架全部V2节点。请使用ssr/ss连接方式进行使用。
+      - '新加坡 Legacy Magic IEPL 中继 E01 Netflix'
+      - '新加坡 Legacy Magic IEPL 中继 E02 Netflix'
+      - '新加坡 Legacy Magic IEPL 中继 E03 Netflix'
+      - '新加坡 Legacy Magic IEPL 中继 E04 Netflix'
+      - '新加坡 Legacy Magic IEPL 中继 E05 Netflix'
+      - '新加坡 Magic IEPL 中继 E01 Netflix'
+      - '新加坡 Magic IEPL 中继 E02 Netflix'
+      - '新加坡 Magic IEPL 中继 E03 Netflix'
+      - '新加坡 Magic IEPL 中继 E04 Netflix'
+      - '新加坡 Magic IEPL 中继 E05 Netflix'
+      - '日本 ソフトバンク E01 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E02 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E03 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E04 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E05 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E06 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E07 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E08 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E09 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E10 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E11 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E12 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E13 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E14 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E15 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E16 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E17 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E18 500Mbps 1倍 Netflix'
+      - '日本 まつやまし auひかり ホーム1ギガ E 01'
+      - '日本 まつやまし auひかり ホーム1ギガ E 02'
+      - '日本 まつやまし auひかり ホーム1ギガ E 03'
+      - '日本 まつやまし auひかり ホーム1ギガ E 04'
+      - '日本 まつやまし auひかり ホーム1ギガ E 05'
+      - '日本 まつやまし auひかり ホーム1ギガ E 06'
+      - '日本 まつやまし auひかり ホーム1ギガ E 07'
+      - '日本 まつやまし auひかり ホーム1ギガ E 08'
+      - '日本 まつやまし auひかり ホーム1ギガ E 09'
+      - '日本 まつやまし auひかり ホーム1ギガ E 10'
+      - '日本 まつやまし auひかり ホーム1ギガ E 11'
+      - '日本 まつやまし auひかり ホーム1ギガ E 12'
+      - '本站无Ins推广渠道 Ins推广渠道均为二手倒卖'
+      - '本站无QQ购买渠道 QQ卖家购买均为二手倒卖'
+      - '本站无微信购买渠道 微信购买均为二手倒卖'
+      - '本站无微店购买渠道 微店购买均为二手倒卖'
+      - '校园 41 速度较慢非校园版用户不推荐使用'
+      - '校园 42 速度较慢非校园版用户不推荐使用'
+      - '校园 43 速度较慢非校园版用户不推荐使用'
+      - '校园 44 速度较慢非校园版用户不推荐使用'
+      - '校园 45 速度较慢非校园版用户不推荐使用'
+      - '校园 46 速度较慢非校园版用户不推荐使用'
+      - '校园 47 速度较慢非校园版用户不推荐使用'
+      - '校园 48 速度较慢非校园版用户不推荐使用'
+      - '校园 49 速度较慢非校园版用户不推荐使用'
+      - '校园 50 速度较慢非校园版用户不推荐使用'
+      - '沪港 IEPL专线 港区TVB/HBO/Netflix解锁 E01'
+      - '沪港 IEPL专线 港区TVB/HBO/Netflix解锁 E02'
+      - '沪港 IEPL专线 港区TVB/HBO/Netflix解锁 E03'
+      - '沪港 IEPL专线 港区TVB/HBO/Netflix解锁 E04'
+      - '沪港 IEPL专线 港区TVB/HBO/Netflix解锁 E05'
+      - '美国 Magic Anycast 中继 E01'
+      - '美国 Magic Anycast 中继 E02'
+      - '美国 Magic Anycast 中继 E03'
+      - '美国 Magic Anycast 中继 E04'
+      - '美国 Magic IEPL 中继 E01'
+      - '美国 Magic IEPL 中继 E02'
+      - '美国 Magic IEPL 中继 E03'
+      - '美国 Magic IEPL 中继 E04'
+      - '美国 Magic IEPL 中继 E05'
+      - '美国实验性 IEPL 中继 E01'
+      - '美国实验性 IEPL 中继 E02'
+      - '美国实验性 IEPL 中继 E03'
+      - '美国实验性 IEPL 中继 E04'
+      - '美国实验性 IEPL 中继 E05'
+      - '美国广域网加速虚拟引擎 IEPL E01'
+      - '美国广域网加速虚拟引擎 IEPL E02'
+      - '美国广域网加速虚拟引擎 IEPL E03'
+      - '美国广域网加速虚拟引擎 IEPL E04'
+      - '美国广域网加速虚拟引擎 IEPL E05'
+      - '美国标准 IEPL 中继 E01'
+      - '美国标准 IEPL 中继 E02'
+      - '美国标准 IEPL 中继 E03'
+      - '美国标准 IEPL 中继 E04'
+      - '美国标准 IEPL 中继 E05'
+      - '美国高级 IEPL 中继 E01'
+      - '美国高级 IEPL 中继 E02'
+      - '美国高级 IEPL 中继 E03'
+      - '美国高级 IEPL 中继 E04'
+      - '美国高级 IEPL 中继 E05'
+      - '韩国 전라북도 전주시 商宽 E 01'
+      - '韩国 전라북도 전주시 商宽 E 02'
+      - '韩国 전라북도 전주시 商宽 E 03'
+      - '韩国 전라북도 전주시 商宽 E 04'
+      - '韩国 전라북도 전주시 商宽 E 05'
+      - '韩国 전라북도 전주시 商宽 E 06'
+      - '韩国 전라북도 전주시 商宽 E 07'
+      - '韩国 전라북도 전주시 商宽 E 08'
+      - '韩国 전라북도 전주시 商宽 E 09'
+      - '韩国 전라북도 전주시 商宽 E 10'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E01'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E02'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E03'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E04'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E05'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E06'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E07'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E08'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E09'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E10'
+      - '香港 油尖旺御金·国峯 香港寬頻 E01'
+      - '香港 油尖旺御金·国峯 香港寬頻 E02'
+      - '香港 油尖旺御金·国峯 香港寬頻 E03'
+      - '香港 油尖旺御金·国峯 香港寬頻 E04'
+      - '香港 油尖旺御金·国峯 香港寬頻 E05'
+      - '香港 油尖旺御金·国峯 香港寬頻 E06'
+      - '香港 油尖旺御金·国峯 香港寬頻 E07'
+      - '香港 油尖旺御金·国峯 香港寬頻 E08'
+      - '香港 油尖旺御金·国峯 香港寬頻 E09'
+      - '香港 油尖旺御金·国峯 香港寬頻 E10'
+  -
+    name: 🎬国外媒体
+    type: select
+    proxies:
+      - 🔰国外流量
+      - '1 加入用户群: https://t.me/joinchat/Fhvyaxkq0Bg4YzBl'
+      - '1 加入用户群: https://t.me/joinchat/Fhvyaxkq0Bg4YzBl - 1350 单端口'
+      - '1 备用官网 http://sgicc.airport-gov-cn.com:59999'
+      - '1认准官网: https://ユーザーパネル.ぜんにっぽんくうゆ.com'
+      - '1认准官网: https://ユーザーパネル.ぜんにっぽんくうゆ.com - 1350 单端口'
+      - 'IPV6 俄罗斯 E01'
+      - 'IPV6 印度 E01'
+      - 'IPV6 日本 E01'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E01'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E02'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E03'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E04'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E05'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E06'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E07'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E08'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E09'
+      - '中国-俄罗斯 Новосиби́рская о́бласть Советский район Ростелеком IPLC E10'
+      - '中国-印度 班加罗尔 एयरटेल IPLC E01'
+      - '中国-印度 班加罗尔 एयरटेल IPLC E02'
+      - '中国-印度 班加罗尔 एयरटेल IPLC E03'
+      - '中国-印度 班加罗尔 एयरटेल IPLC E04'
+      - '中国-印度 班加罗尔 एयरटेल IPLC E05'
+      - '中国-印度 班加罗尔 एयरटेल IPLC E06'
+      - '中国-印度 班加罗尔 एयरटेल IPLC E07'
+      - '中国-印度 班加罗尔 एयरटेल IPLC E08'
+      - '中国-台湾 IEPL HiNet固接 E01 Netflix 动画疯'
+      - '中国-台湾 IEPL HiNet固接 E02 Netflix 动画疯'
+      - '中国-台湾 IEPL HiNet固接 E03 Netflix 动画疯'
+      - '中国-台湾 IEPL HiNet固接 E04 Netflix 动画疯'
+      - '中国-台湾 IEPL HiNet固接 E05 Netflix 动画疯'
+      - '中国-台湾 IEPL HiNet固接 E06 Netflix 动画疯'
+      - '中国-台湾 IEPL HiNet固接 E07 Netflix 动画疯'
+      - '中国-台湾 IEPL HiNet固接 E08 Netflix 动画疯'
+      - '中国-台湾 IEPL HiNet固接 E09 Netflix 动画疯'
+      - '中国-台湾 IEPL HiNet固接 E10 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E01 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E02 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E03 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E04 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E05 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E06 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E07 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E08 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E09 Netflix 动画疯'
+      - '中国-台湾 IPLC HiNet固接 E10 Netflix 动画疯'
+      - '中国-台湾宜兰 IPLC E01'
+      - '中国-台湾宜兰 IPLC E02'
+      - '中国-台湾宜兰 IPLC E03'
+      - '中国-台湾宜兰 IPLC E04'
+      - '中国-台湾宜兰 IPLC E05'
+      - '中国-台湾宜兰 IPLC E06'
+      - '中国-台湾宜兰 IPLC E07'
+      - '中国-台湾宜兰 IPLC E08'
+      - '中国-台湾宜兰 IPLC E09'
+      - '中国-台湾宜兰 IPLC E10'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E01 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E02 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E03 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E04 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E05 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E06 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E07 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E08 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E09 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E10 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E11 Netflix'
+      - '中国-日本 沪日IEPL传输 Equinix-TY8 E12 Netflix'
+      - '中国-日本 沪日IPLC传输 Equinix-TY8 E01 Netflix'
+      - '中国-日本 沪日IPLC传输 Equinix-TY8 E02 Netflix'
+      - '中国-日本 沪日IPLC传输 Equinix-TY8 E03 Netflix'
+      - '中国-日本 沪日IPLC传输 Equinix-TY8 E04 Netflix'
+      - '中国-日本 沪日IPLC传输 Equinix-TY8 E05 Netflix'
+      - '中国-日本 沪日IPLC传输 Equinix-TY8 E06 Netflix'
+      - '中国-英国伦敦电信 IEPL E01'
+      - '中国-英国伦敦电信 IEPL E02'
+      - '中国-英国伦敦电信 IEPL E03'
+      - '中国-英国伦敦电信 IEPL E04'
+      - '中国-英国伦敦电信 IEPL E05'
+      - '中国-英国伦敦电信 IEPL E06'
+      - '中国-韩国 IEPL E 01'
+      - '中国-韩国 IEPL E 02'
+      - '中国-韩国 IEPL E 03'
+      - '中国-韩国 IEPL E 04'
+      - '中国-韩国 IEPL E 05'
+      - '中国-韩国 IEPL E 06'
+      - '中国-韩国 IEPL E 07'
+      - '中国-韩国 IEPL E 08'
+      - '中国-韩国 IEPL E 09'
+      - '中国-韩国 IEPL E 10'
+      - '中国-香港 IEPL Equinix HK2 E 01'
+      - '中国-香港 IEPL Equinix HK2 E 02'
+      - '中国-香港 IEPL Equinix HK2 E 03'
+      - '中国-香港 IEPL Equinix HK2 E 04'
+      - '中国-香港 IEPL Equinix HK2 E 05'
+      - '中国-香港 IEPL Equinix HK2 E 06'
+      - '中国-香港 IEPL Equinix HK2 E 07'
+      - '中国-香港 IEPL Equinix HK2 E 08'
+      - '中国-香港 IEPL Equinix HK2 E 09'
+      - '中国-香港 IEPL Equinix HK2 E 10'
+      - '中国-香港 IEPL Equinix HK2 E 11'
+      - '中国-香港 IEPL Equinix HK2 E 12'
+      - '中国-香港 IEPL Equinix HK2 E 13'
+      - '中国-香港 IEPL Equinix HK2 E 14'
+      - '中国-香港 IEPL Equinix HK2 E 15'
+      - '中国-香港 IEPL Equinix HK2 E 16'
+      - '中国-香港 IEPL Equinix HK2 E 17'
+      - '中国-香港 IEPL Equinix HK2 E 18'
+      - '中国-香港 IEPL Equinix HK2 E 19'
+      - '中国-香港 IEPL Equinix HK2 E 20'
+      - '中港专线 IPLC E01 1000Mbps'
+      - '中港专线 IPLC E02 1000Mbps'
+      - '中港专线 IPLC E03 1000Mbps'
+      - '中港专线 IPLC E04 1000Mbps'
+      - '中港专线 IPLC E05 1000Mbps'
+      - '中港专线 IPLC E06 1000Mbps'
+      - '中港专线 IPLC E07 1000Mbps'
+      - '中港专线 IPLC E08 1000Mbps'
+      - '中港专线 IPLC E09 1000Mbps'
+      - '中港专线 IPLC E10 1000Mbps'
+      - '中港专线 IPLC E11 1000Mbps'
+      - '中港专线 IPLC E12 1000Mbps'
+      - '中港专线 IPLC E13 1000Mbps'
+      - '中港专线 IPLC E14 1000Mbps'
+      - '中港专线 IPLC E15 1000Mbps'
+      - '中港专线 IPLC E161000Mbps'
+      - '中港专线 IPLC E17 1000Mbps'
+      - '中港专线 IPLC E18 1000Mbps'
+      - '中港专线 IPLC E19 1000Mbps'
+      - '中港专线 IPLC E20 1000Mbps'
+      - '单端口测试 - 1350 单端口'
+      - 因V2ray重大漏洞问题，暂时下架全部V2节点。请使用ssr/ss连接方式进行使用。
+      - '新加坡 Legacy Magic IEPL 中继 E01 Netflix'
+      - '新加坡 Legacy Magic IEPL 中继 E02 Netflix'
+      - '新加坡 Legacy Magic IEPL 中继 E03 Netflix'
+      - '新加坡 Legacy Magic IEPL 中继 E04 Netflix'
+      - '新加坡 Legacy Magic IEPL 中继 E05 Netflix'
+      - '新加坡 Magic IEPL 中继 E01 Netflix'
+      - '新加坡 Magic IEPL 中继 E02 Netflix'
+      - '新加坡 Magic IEPL 中继 E03 Netflix'
+      - '新加坡 Magic IEPL 中继 E04 Netflix'
+      - '新加坡 Magic IEPL 中继 E05 Netflix'
+      - '日本 ソフトバンク E01 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E02 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E03 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E04 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E05 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E06 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E07 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E08 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E09 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E10 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E11 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E12 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E13 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E14 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E15 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E16 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E17 500Mbps 1倍 Netflix'
+      - '日本 ソフトバンク E18 500Mbps 1倍 Netflix'
+      - '日本 まつやまし auひかり ホーム1ギガ E 01'
+      - '日本 まつやまし auひかり ホーム1ギガ E 02'
+      - '日本 まつやまし auひかり ホーム1ギガ E 03'
+      - '日本 まつやまし auひかり ホーム1ギガ E 04'
+      - '日本 まつやまし auひかり ホーム1ギガ E 05'
+      - '日本 まつやまし auひかり ホーム1ギガ E 06'
+      - '日本 まつやまし auひかり ホーム1ギガ E 07'
+      - '日本 まつやまし auひかり ホーム1ギガ E 08'
+      - '日本 まつやまし auひかり ホーム1ギガ E 09'
+      - '日本 まつやまし auひかり ホーム1ギガ E 10'
+      - '日本 まつやまし auひかり ホーム1ギガ E 11'
+      - '日本 まつやまし auひかり ホーム1ギガ E 12'
+      - '本站无Ins推广渠道 Ins推广渠道均为二手倒卖'
+      - '本站无QQ购买渠道 QQ卖家购买均为二手倒卖'
+      - '本站无微信购买渠道 微信购买均为二手倒卖'
+      - '本站无微店购买渠道 微店购买均为二手倒卖'
+      - '校园 41 速度较慢非校园版用户不推荐使用'
+      - '校园 42 速度较慢非校园版用户不推荐使用'
+      - '校园 43 速度较慢非校园版用户不推荐使用'
+      - '校园 44 速度较慢非校园版用户不推荐使用'
+      - '校园 45 速度较慢非校园版用户不推荐使用'
+      - '校园 46 速度较慢非校园版用户不推荐使用'
+      - '校园 47 速度较慢非校园版用户不推荐使用'
+      - '校园 48 速度较慢非校园版用户不推荐使用'
+      - '校园 49 速度较慢非校园版用户不推荐使用'
+      - '校园 50 速度较慢非校园版用户不推荐使用'
+      - '沪港 IEPL专线 港区TVB/HBO/Netflix解锁 E01'
+      - '沪港 IEPL专线 港区TVB/HBO/Netflix解锁 E02'
+      - '沪港 IEPL专线 港区TVB/HBO/Netflix解锁 E03'
+      - '沪港 IEPL专线 港区TVB/HBO/Netflix解锁 E04'
+      - '沪港 IEPL专线 港区TVB/HBO/Netflix解锁 E05'
+      - '美国 Magic Anycast 中继 E01'
+      - '美国 Magic Anycast 中继 E02'
+      - '美国 Magic Anycast 中继 E03'
+      - '美国 Magic Anycast 中继 E04'
+      - '美国 Magic IEPL 中继 E01'
+      - '美国 Magic IEPL 中继 E02'
+      - '美国 Magic IEPL 中继 E03'
+      - '美国 Magic IEPL 中继 E04'
+      - '美国 Magic IEPL 中继 E05'
+      - '美国实验性 IEPL 中继 E01'
+      - '美国实验性 IEPL 中继 E02'
+      - '美国实验性 IEPL 中继 E03'
+      - '美国实验性 IEPL 中继 E04'
+      - '美国实验性 IEPL 中继 E05'
+      - '美国广域网加速虚拟引擎 IEPL E01'
+      - '美国广域网加速虚拟引擎 IEPL E02'
+      - '美国广域网加速虚拟引擎 IEPL E03'
+      - '美国广域网加速虚拟引擎 IEPL E04'
+      - '美国广域网加速虚拟引擎 IEPL E05'
+      - '美国标准 IEPL 中继 E01'
+      - '美国标准 IEPL 中继 E02'
+      - '美国标准 IEPL 中继 E03'
+      - '美国标准 IEPL 中继 E04'
+      - '美国标准 IEPL 中继 E05'
+      - '美国高级 IEPL 中继 E01'
+      - '美国高级 IEPL 中继 E02'
+      - '美国高级 IEPL 中继 E03'
+      - '美国高级 IEPL 中继 E04'
+      - '美国高级 IEPL 中继 E05'
+      - '韩国 전라북도 전주시 商宽 E 01'
+      - '韩国 전라북도 전주시 商宽 E 02'
+      - '韩国 전라북도 전주시 商宽 E 03'
+      - '韩国 전라북도 전주시 商宽 E 04'
+      - '韩国 전라북도 전주시 商宽 E 05'
+      - '韩国 전라북도 전주시 商宽 E 06'
+      - '韩国 전라북도 전주시 商宽 E 07'
+      - '韩国 전라북도 전주시 商宽 E 08'
+      - '韩国 전라북도 전주시 商宽 E 09'
+      - '韩国 전라북도 전주시 商宽 E 10'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E01'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E02'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E03'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E04'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E05'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E06'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E07'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E08'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E09'
+      - '香港 油尖旺御金·国峯 網上行寬頻 E10'
+      - '香港 油尖旺御金·国峯 香港寬頻 E01'
+      - '香港 油尖旺御金·国峯 香港寬頻 E02'
+      - '香港 油尖旺御金·国峯 香港寬頻 E03'
+      - '香港 油尖旺御金·国峯 香港寬頻 E04'
+      - '香港 油尖旺御金·国峯 香港寬頻 E05'
+      - '香港 油尖旺御金·国峯 香港寬頻 E06'
+      - '香港 油尖旺御金·国峯 香港寬頻 E07'
+      - '香港 油尖旺御金·国峯 香港寬頻 E08'
+      - '香港 油尖旺御金·国峯 香港寬頻 E09'
+      - '香港 油尖旺御金·国峯 香港寬頻 E10'
+  -
+    name: 🍎苹果服务
+    type: select
+    proxies:
+      - 🚀直接连接
+      - 🔰国外流量
+  -
+    name: 🚀直接连接
+    type: select
+    proxies:
+      - DIRECT
+rule-providers:
+  reject:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt"
+    path: ./ruleset/reject.yaml
+    interval: 86400
+
+  icloud:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/icloud.txt"
+    path: ./ruleset/icloud.yaml
+    interval: 86400
+
+  apple:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/apple.txt"
+    path: ./ruleset/apple.yaml
+    interval: 86400
+
+  google:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/google.txt"
+    path: ./ruleset/google.yaml
+    interval: 86400
+
+  proxy:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt"
+    path: ./ruleset/proxy.yaml
+    interval: 86400
+
+  direct:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt"
+    path: ./ruleset/direct.yaml
+    interval: 86400
+
+  private:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.txt"
+    path: ./ruleset/private.yaml
+    interval: 86400
+
+  gfw:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/gfw.txt"
+    path: ./ruleset/gfw.yaml
+    interval: 86400
+
+  greatfire:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/greatfire.txt"
+    path: ./ruleset/greatfire.yaml
+    interval: 86400
+
+  tld-not-cn:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/tld-not-cn.txt"
+    path: ./ruleset/tld-not-cn.yaml
+    interval: 86400
+
+  telegramcidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/telegramcidr.txt"
+    path: ./ruleset/telegramcidr.yaml
+    interval: 86400
+
+  cncidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.txt"
+    path: ./ruleset/cncidr.yaml
+    interval: 86400
+
+  lancidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt"
+    path: ./ruleset/lancidr.yaml
+    interval: 86400
+
+rules:
+  - PROCESS-NAME,v2ray,DIRECT
+  - PROCESS-NAME,xray,DIRECT
+  - PROCESS-NAME,naive,DIRECT
+  - PROCESS-NAME,trojan,DIRECT
+  - PROCESS-NAME,trojan-go,DIRECT
+  - PROCESS-NAME,ss-local,DIRECT
+  - PROCESS-NAME,privoxy,DIRECT
+  - PROCESS-NAME,leaf,DIRECT
+  - PROCESS-NAME,v2ray.exe,DIRECT
+  - PROCESS-NAME,xray.exe,DIRECT
+  - PROCESS-NAME,naive.exe,DIRECT
+  - PROCESS-NAME,trojan.exe,DIRECT
+  - PROCESS-NAME,trojan-go.exe,DIRECT
+  - PROCESS-NAME,ss-local.exe,DIRECT
+  - PROCESS-NAME,privoxy.exe,DIRECT
+  - PROCESS-NAME,leaf.exe,DIRECT
+  - PROCESS-NAME,Surge,DIRECT
+  - PROCESS-NAME,Surge 2,DIRECT
+  - PROCESS-NAME,Surge 3,DIRECT
+  - PROCESS-NAME,Surge 4,DIRECT
+  - PROCESS-NAME,Surge%202,DIRECT
+  - PROCESS-NAME,Surge%203,DIRECT
+  - PROCESS-NAME,Surge%204,DIRECT
+  - PROCESS-NAME,Thunder,DIRECT
+  - PROCESS-NAME,DownloadService,DIRECT
+  - PROCESS-NAME,qBittorrent,DIRECT
+  - PROCESS-NAME,Transmission,DIRECT
+  - PROCESS-NAME,fdm,DIRECT
+  - PROCESS-NAME,aria2c,DIRECT
+  - PROCESS-NAME,Folx,DIRECT
+  - PROCESS-NAME,NetTransport,DIRECT
+  - PROCESS-NAME,uTorrent,DIRECT
+  - PROCESS-NAME,WebTorrent,DIRECT
+  - PROCESS-NAME,aria2c.exe,DIRECT
+  - PROCESS-NAME,BitComet.exe,DIRECT
+  - PROCESS-NAME,fdm.exe,DIRECT
+  - PROCESS-NAME,NetTransport.exe,DIRECT
+  - PROCESS-NAME,qbittorrent.exe,DIRECT
+  - PROCESS-NAME,Thunder.exe,DIRECT
+  - PROCESS-NAME,ThunderVIP.exe,DIRECT
+  - PROCESS-NAME,transmission-daemon.exe,DIRECT
+  - PROCESS-NAME,transmission-qt.exe,DIRECT
+  - PROCESS-NAME,uTorrent.exe,DIRECT
+  - PROCESS-NAME,WebTorrent.exe,DIRECT
+  - DOMAIN,clash.razord.top,DIRECT
+  - DOMAIN,yacd.haishan.me,DIRECT
+  - RULE-SET,private,DIRECT
+  - RULE-SET,reject,REJECT
+  - RULE-SET,icloud,DIRECT
+  - RULE-SET,apple,DIRECT
+  - RULE-SET,google,DIRECT
+  - RULE-SET,proxy,🔰国外流量
+  - RULE-SET,direct,DIRECT
+  - RULE-SET,telegramcidr,🔰国外流量
+  - GEOIP,,DIRECT
+  - GEOIP,CN,DIRECT
+  - MATCH,🔰国外流量
